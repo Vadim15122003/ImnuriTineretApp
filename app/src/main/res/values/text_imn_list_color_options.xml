@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="text_imn_list_color_options">
+        <item>Schimbă:</item>
+        <item>Negru</item>
+        <item>Alb</item>
+        <item>Sur</item>
+    </string-array>
+</resources>

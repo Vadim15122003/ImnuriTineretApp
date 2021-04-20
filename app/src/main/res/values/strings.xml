@@ -1,0 +1,2038 @@
+<resources>
+    <string name="app_name">Imnuri Tineret</string>
+    <string name="toolbar_main_text">Imnuri tineret AZȘ Colibași</string>
+    <string name="toolbar_updates_text">Actualizări</string>
+    <string name="toolbar_settings_text">Setări</string>
+    <string name="toolbar_hystory_text">Istoric</string>
+
+    <string name="imn_acorduri_indisponibile">Ne pare rău, acordurile pentru această cântare nu sunt disponibile</string>
+
+    <string name="imn1_title">1. Doamne vin și-ngenunchez</string>
+    <string name="imn1_stroke_1">
+        1  Doamne vin și-ngenunchez,\n
+         Ție îți mărturisesc:\n
+         Fără Tine aș cădea,\n
+         Doar Tu ești odihna mea.\n\n
+</string>
+    <string name="imn1_refren_1">
+     \t\tR1: Eu de Tine am nevoie,\n
+      \t\tAm nevoie mare,\n
+      \t\tTu ești neprihănirea mea\n
+      \t\tȘi-a mea apărare.\n\n
+</string>
+    <string name="imn1_stroke_2">
+    2  Acolo unde-i mult păcat,\n
+         E har mai mult, nemăsurat.\n
+      //: Hristos în mine asta e,\n
+         Prin harul Său, sfințenie. ://\n\n
+</string>
+    <string name="imn1_refren_2">
+       \t \tR2: Să mă-nveți cântari să-nalț\n
+        \t \tCând ispite-n cale vin,\n
+        \t \tEu mă las Isus pe al Tău braț,\n
+         \t\tEști speranță și alin.
+</string>
+    <string name="imn1_acorduri_stroke_1">
+    "      "G"                  "C"          "G\n
+    1  Doamne vin și-ngenunchez,\n
+        " "Em"    "D"         "C\n
+         Ție îți mărturisesc:\n
+         " "G"          "C"       "G\n
+         Fără Tine aș cădea,\n
+         " "Em"               "D"    "C\n
+         Doar Tu ești odihna mea.\n\n
+
+</string>
+    <string name="imn1_acorduri_refren_1">
+\t\t"     "G"               "C"    "G"       "D\n
+      \t\tR: Eu de Tine am nevoie,\n
+      \t\tEm"     "C"      "G"  "D\n
+      \t\tAm nevoie mare,\n
+      \t\t"   "G/B"      "D"   "G"    "C\n
+      \t\tTu ești neprihănirea mea\n
+      \t\t"     "G/D"     "D"      "G\n
+      \t\tȘi-a mea apărare.\n\n
+</string>
+    <string name="imn1_acorduri_stroke_2">
+\n"      "G"              "C"       "G\n
+    2  Acolo unde-i mult păcat,\n
+        Em"               "D"         "C\n
+         E har mai mult, nemăsurat.\n
+        "     "G"              "C"         "G\n
+      //: Hristos în mine asta e,\n
+        " "Em"                    "D"    "C\n
+         Prin harul Său, sfințenie. ://\n\n
+</string>
+    <string name="imn1_acorduri_refren_2">
+\t\t"       "C"     "G/B"       "D"       "Em\n
+        \t\tR2:Să mă-nveți cântări să-nalț\n
+         \t\t " "C"                   "D"     "C\n
+         \t\tCând ispite-n cale vin,\n
+         \t\t"      "C"   "G/B"         "D"          "Em\n
+         \t\tEu mă las Isus pe al Tău braț,\n
+         \t\tC"            "D"           "G\n
+         \t\tEști speranță și alin.
+</string>
+
+    <string name="imn2_title">2. Minunat e Domnul meu</string>
+    <string name="imn2_stroke_1">
+        1   Minunat e Domnul meu\n
+     Văd iubirea Sa mereu\n
+     Valea morții reci o trec cu El\n
+     Aud blândele-i chemări\n
+     Ştiu nespusele-i tăceri\n
+     Mâna Lui mă poartă către zări\n\n
+</string>
+    <string name="imn2_refren_1">
+    \t\tR:  Vom fi mereu împreună\n
+      \t\tEu și Domnul meu\n
+      \t\tNe va-nsoţi totdeauna\n
+      \t\tPaşii când mi-e greu\n\n
+</string>
+    <string name="imn2_stroke_2">
+    2   Cântă munți în depărtări\n
+     Vin ecouri dinspre mări\n
+     Domnul slavei cheamă pe ai săi\n
+     Se adună cei răniți\n
+     Vin încet cei obosiți\n
+     Peste-o clipă doar vom fi cu El\n\n
+</string>
+    <string name="imn2_refren_2">
+       \t\tR2:  Vom trece iar împreuna\n
+       \t\tNoaptea cât de grea\n
+        \t\tNe va-nsoţi totdeauna\n
+        \t\tTainic pe cer o stea
+</string>
+    <string name="imn2_acorduri_stroke_1">
+"       "E\n
+1   Minunat e Domnul meu\n
+     "                     "F#m\n
+     Văd iubirea Sa mereu\n
+     " "F#m"                                      "E\n
+     Valea morții reci o trec cu El\n
+     " "A\n
+     Aud blândele-i chemări\n
+     "                       "C#m\n
+     Ştiu nespusele-i tăceri\n
+     " "F#m"                    "B"                "E\n
+     Mâna Lui mă poartă către zări\n\n
+</string>
+    <string name="imn2_acorduri_refren_1">
+\t\t"    "Bm"               "A"   "G#m"    "C#m\n
+\t\tR:  Vom fi mereu împreună\n
+      \t\t"      "A"                 "E\n
+      \t\tEu și Domnul meu\n
+      \t\t"               "E"     "B"          "E\n
+      \t\tNe va-nsoţi totdeauna\n
+      \t\t"    "F#M"   "C"     "E\n
+      \t\tPaşii când mi-e greu\n\n
+</string>
+    <string name="imn2_acorduri_stroke_2">
+"      "E\n
+2   Cântă munți în depărtări\n
+     "                         "F#m\n
+     Vin ecouri dinspre mări\n
+     " "F#m"                                      "E\n
+     Domnul slavei cheamă pe ai săi\n
+     A\n
+     Se adună cei răniți\n
+     "             "C#m\n
+     Vin încet cei obosiți\n
+     "     "F#m"                  "B"                  "E\n
+     Peste-o clipă doar vom fi cu El\n\n
+</string>
+    <string name="imn2_acorduri_refren_2">
+\t\t"      "Bm"               "A"   "G#m"    "C#m\n
+\t\tR2:  Vom trece iar împreuna\n
+        \t\t"      "A"               "E\n
+        \t\tNoaptea cât de grea\n
+        \t\t"              "E"     "B"           "E\n
+        \t\tNe va-nsoţi totdeauna\n
+        \t\t"      "F#M"   "C"     "E\n
+        \t\tTainic pe cer o stea
+</string>
+
+    <string name="imn3_title">3. Bucuria iubirii</string>
+    <string name="imn3_stroke_1">
+1  Bucuria iubirii ne prinde uniți,\n
+    Au venit peste noi cântări.\n
+    Domnul Păcii ne face așa fericiți,\n
+    Frânge doruri și mari depărtări.\n\n
+</string>
+    <string name="imn3_refren">
+\t\tR: Ce minune-i iubirea divină,\n
+     \t\t Ce minune e glasul Său sfânt, \n
+     \t\t Ce minune când stăm împreună\n
+     \t\t Sub aripa Duhului Sfânt\n\n
+</string>
+    <string name="imn3_stroke_2">
+2  Las-afară dureri, lasă gândul cel rău,\n
+    Orice teamă aruncă iar.\n
+    Frânge pâinea, împarte-o cu fratele tău,\n
+    Vei uita astfel orice amar.\n\n
+</string>
+    <string name="imn3_stroke_3">
+3  După ani de suspin, după luptă și chin,\n
+    Gustă iara dulceața Sa,\n
+    Poartă-ți gândul spre casă, spre noul cămin\n
+    Și-atunci inima-ți va cânta!\n\n
+</string>
+    <string name="imn3_acorduri_stroke_1">
+"    "Bb"                "Eb\n
+1  Bucuria iubirii ne prinde uniți,\n
+    "             "F"                         "Bb\n
+    Au venit peste noi cântări.\n
+    "                "Bb"                   "Eb\n
+    Domnul Păcii ne face așa fericiți,\n
+    "            "F"             "F7"                 "Bb\n
+    Frânge doruri și mari depărtări.\n\n
+</string>
+    <string name="imn3_acorduri_refren">
+                          \t\t "               "Bb"                        "Eb\n
+\t\tR: Ce minune-i iubirea divină,\n
+     \t\t "           "F"                                  "Bb\n
+     \t\t Ce minune e glasul Său sfânt, \n
+     \t\t "          "Bb"                                   "Eb\n
+     \t\t Ce minune când stăm împreună\n
+     \t\t "         "F"       "F7"          "Bb\n
+     \t\t Sub aripa Duhului Sfânt\n\n
+</string>
+    <string name="imn3_acorduri_stroke_2">
+"              "Bb"                              "Eb\n
+2  Las-afară dureri, lasă gândul cel rău,\n
+    "          "F"                       "Bb\n
+    Orice teamă aruncă iar.\n
+    "              "Bb"                                  "Eb\n
+    Frânge pâinea, împarte-o cu fratele tău,\n
+    "      "F"                                "Bb\n
+    Vei uita astfel orice amar.\n\n
+</string>
+    <string name="imn3_acorduri_stroke_3">
+"                 "Bb"                              "Eb\n
+3  După ani de suspin, după luptă și chin,\n
+    "            "F"                      "Bb\n
+    Gustă iara dulceața Sa,\n
+    "                 "Bb"                                "Eb\n
+    Poartă-ți gândul spre casă, spre noul cămin\n
+    "                 "F"                         "Bb\n
+    Și-atunci inima-ți va cânta!\n\n
+</string>
+
+    <string name="imn4_title">4. Ești aproape cum țărmul de mare</string>
+    <string name="imn4_stroke_1">
+1  Ești aproape cum țărmul de mare\n
+    Ca și mama de copiii ei\n
+  //:  Ai venit să-mi ușurezi povara\n
+    De păcat să mă eliberezi://\n\n
+</string>
+    <string name="imn4_stroke_2">
+2  Făra tine viața e amară\n
+    Fără tine eu nu pot trai\n
+   //: Tu ești fericirea vieții mele\n
+    Și te rog oricând cu mine fii://\n\n
+</string>
+    <string name="imn4_stroke_3">
+3  Când pământul sa-ntâlnit cu cerul\n
+    Și de tot păcatul sa sfârși\n
+   //: Sper, o, Doamne să te văd odată\n
+    Și pe veci nu ne vom despărți://\n\n
+</string>
+    <string name="imn4_stroke_4">
+4  Pân atunci trăiesc cu o nădejde\n
+    Când cuvântul se va împlini\n
+   //: Vom lucra grăbind a Ta venire\n
+    Și-n curând cu tine noi vom fi://\n\n
+</string>
+    <string name="imn4_acorduri_stroke_1">
+"       "Am"                                 "Dm\n
+1  Ești aproape cum țărmul de mare\n
+    "          "E"                        "Am\n
+    Ca și mama de copiii ei\n
+  "            "Am"                       "Dm\n
+  //:  Ai venit să-mi ușurezi povara\n
+    "          "Am"        "E"          "Am\n
+    De păcat să mă eliberezi://\n\n
+</string>
+    <string name="imn4_acorduri_stroke_2">
+"              "Am"            "Dm\n
+2  Făra tine viața e amară\n
+    "         "E"                     "Am\n
+    Fără tine eu nu pot trai\n
+   "             "Am"                   "Dm\n
+   //: Tu ești fericirea vieții mele\n
+    "         "Am"       "E"                   "Am\n
+    Și te rog oricând cu mine fii://\n\n
+</string>
+    <string name="imn4_acorduri_stroke_3">
+"                   "Am"                             "Dm\n
+3  Când pământul sa-ntâlnit cu cerul\n
+    "           "E"                         "Am\n
+    Și de tot păcatul sa sfârși\n
+   "               "Am"                             "Dm\n
+   //: Sper, o, Doamne să te văd odată\n
+    "             "Am"      "E"                     "Am\n
+    Și pe veci nu ne vom despărți://\n\n
+</string>
+    <string name="imn4_acorduri_stroke_4">
+"               "Am"                               "Dm\n
+4  Pân atunci trăiesc cu o nădejde\n
+    "               "E"                        "Am\n
+    Când cuvântul se va împlini\n
+   "              "Am"                         "Dm\n
+   //: Vom lucra grăbind a Ta venire\n
+    "         "Am"       "E"                   "Am\n
+    Și-n curând cu tine noi vom fi://\n\n
+</string>
+
+    <string name="imn5_title">5. Mă aflu-n mijlocul mulțimii</string>
+    <string name="imn5_stroke_1">
+1  Mă aflu-n mijlocul mulțimii\n
+    În locul unde nu cresc flori\n
+    Și cât de greu găsesc străinii\n
+    Ce pe Pământ sunt călători.\n\n
+</string>
+    <string name="imn5_stroke_2">
+2   Mi-e dor s-aud credința vie\n
+    Rostită prin cuvântul lor\n
+    Mi-e dor de cer, de veșnicie\n
+    Mi-e dor de-al meu Mântuitor.\n\n
+</string>
+    <string name="imn5_stroke_3">
+3  Și ce curaj aveau aceștia\n
+   Ce-au pribegit pe-un drum pustiu,\n
+   Au răspândit în lume vestea\n
+   Ca împăratul lor e viu.\n\n
+</string>
+    <string name="imn5_stroke_4">
+4  Au părăsit lumea, păcatul,\n
+   Au mers cu-al Domnului popor;\n
+   Cu lacrimi au udat pământul\n
+   Și-au suferit pentru Hristos.\n\n
+</string>
+    <string name="imn5_stroke_5">
+ 5 Au  Fost  ucişi ,loviţi cu cu pietre\n
+   Au fost bătuți și chinuiți.\n
+   Prin munți, prin crăpături, prin peșteri,\n
+   Lipsiți de toate, prigoniți.\n\n
+</string>
+    <string name="imn5_stroke_6">
+6  Cântau când erau prinși în lanțuri\n
+   Și se rugau prin Duhul Sfânt.\n
+ Creștine, cum trăim noi astăzi?\n
+   Isus Hristos vine curând!\n\n
+</string>
+    <string name="imn5_refren">
+\t\tR: Ce trece viața, trece clipa,\n
+     \t\tCând poți să plângi la pieptul Lui;\n
+     \t\tPe drum vei întâlni risipa\n
+     \t\tȘi-a lumii bogăție-n scrum.\n\n
+</string>
+    <string name="imn5_acorduri_stroke_1">
+"    "Cm"                 "Bb"            "Cm\n
+1  Mă aflu-n mijlocul mulțimii\n
+    Eb"            "Bb"                  "Eb\n
+    În locul unde nu cresc flori\n
+    Cm"            "Bb"                      "Cm\n
+    Și cât de greu găsesc străinii\n
+    " "Ab"              "Bb"                "Cm\n
+    Ce pe Pământ sunt călători.\n\n
+</string>
+    <string name="imn5_acorduri_stroke_2">
+"                    "Bb"                    "Cm\n
+2   Mi-e dor s-aud credința vie\n
+    Eb"           "Bb"                 "Eb\n
+    Rostită prin cuvântul lor\n
+    "   "Cm"             "Bb"             "Cm\n
+    Mi-e dor de cer, de veșnicie\n
+    " "Ab"               "Bb"                  "Cm\n
+    Mi-e dor de-al meu Mântuitor.\n\n
+</string>
+    <string name="imn5_acorduri_stroke_3">
+"      "Cm"             "Bb"          "Cm\n
+3  Și ce curaj aveau aceștia\n
+   "   "Eb"                 "Bb"           "Eb\n
+   Ce-au pribegit pe-un drum pustiu,\n
+   "  "Cm"              "Bb"                "Cm\n
+   Au răspândit în lume vestea\n
+   Ab"               "Bb"         "Cm\n
+   Ca împăratul lor e viu.\n\n
+</string>
+    <string name="imn5_acorduri_stroke_4">
+"                      "Bb"            "Cm\n
+4  Au părăsit lumea, păcatul,\n
+ " "Eb"                    "Bb"           "Eb\n
+   Au mers cu-al Domnului popor;\n
+   "  "Cm"           "Bb"                     "Cm\n
+   Cu lacrimi au udat pământul\n
+   "     "Am"               "Bb"            "Cm\n
+   Și-au suferit pentru Hristos.\n\n
+</string>
+    <string name="imn5_acorduri_stroke_5">
+ "      "Cb"                 "Bb"             "Cm\n
+ 5 Au  Fost  ucişi ,loviţi cu cu pietre\n
+   " "Eb"        "Bb"                 "Eb\n
+   Au fost bătuți și chinuiți.\n
+   "   "Cm"               "Bb"          "Cm\n
+   Prin munți, prin crăpături, prin peșteri,\n
+   "    "Ab"             "Bb"               "Cm\n
+   Lipsiți de toate, prigoniți.\n\n
+</string>
+    <string name="imn5_acorduri_stroke_6">
+"                     "Bb"               "Cm\n
+6  Cântau când erau prinși în lanțuri\n
+   "  "Eb"           "Bb"                "Eb\n
+   Și se rugau prin Duhul Sfânt.\n
+Cm"                  "Bb"          "Cm\n
+ Creștine, cum trăim noi astăzi?\n
+   "  "Cm"              "Bb"            "Cm\n
+   Isus Hristos vine curând!\n\n
+</string>
+    <string name="imn5_acorduri_refren">
+\t\t"     "Bb"           "Fm"               "Cm\n
+\t\tR: Ce trece viața, trece clipa,\n
+     \t\tBb"                    "Fm"                     "Cm\n
+     \t\tCând poți să plângi la pieptul Lui;\n
+     \t\tBb"               "Fm"            "Cm\n
+     \t\tPe drum vei întâlni risipa\n
+     \t\tAb"                  "Bb"          "Cm\n
+     \t\tȘi-a lumii bogăție-n scrum.\n\n
+</string>
+
+    <string name="imn6_title">6. Atât de aproape e Domnul</string>
+    <string name="imn6_stroke_1">
+1  Atât de aproape e Domnul\n
+    Aud râul vieții curgând\n
+    Văd pomul vieții pe maluri\n
+    Și pacea în veci surâzând.\n
+        \t\tAlungă, Isuse,\n
+        \t\tȘi ultima noapte de chin\n
+        \t\tSă treacă, să treacă mai iute\n
+         \t\tȘi ultimul lumii suspin\n\n
+</string>
+    <string name="imn6_stroke_2">
+2  Atât de aproape e Domnul,\n
+    Văd îngerii gata de zbor,\n
+    Cetatea cea sfântă îmi cheamă\n
+    Privirea, cântarea de dor.\n
+        \t\tDă-mi Doamne iubirea\n
+        \t\tSă spun tuturor ce-ai promis,\n
+        \t\tSă-mi fie deplină jertfirea,\n
+        \t\tSă trec peste-al lumii abis\n\n
+</string>
+    <string name="imn6_stroke_3">
+3  Atât de aproape e Domnul\n
+    Zăresc ai Edenului zori,\n
+    Și-n liniștea vieții eterne\n
+    Aud glas de biruitori.\n
+\t\tDă-mi Doamne iubirea\n
+        \t\tSă spun tuturor ce-ai promis,\n
+        \t\tSă-mi fie deplină jertfirea,\n
+        \t\tSă trec peste-al lumii abis\n\n
+</string>
+    <string name="imn6_acorduri_stroke_1">
+"  "Fm"              "Db"                 "Fm\n
+1  Atât de aproape e Domnul\n
+    Emb"          "Db"          "Emb\n
+    Aud râul vieții curgând\n
+    Db"                "Ab"             "Db\n
+    Văd pomul vieții pe maluri\n
+    "    "Emb"                            "Db\n
+    Și pacea în veci surâzând.\n
+\t\t" "Gb"    "Ab"   "Bmb\n
+\t\tAlungă, Isuse\n
+        \t\t"                  "Emb"          "Ab\n
+        \t\tȘi ultima noapte de chin\n
+        \t\tGb" "Db"             "Ab"            "Db\n
+        \t\tSă treacă, să treacă mai iute\n
+         \t\t"     "Emb"         "Db"     "Gb"   "Db\n
+         \t\tȘi ultimul lumii suspin\n\n
+</string>
+    <string name="imn6_acorduri_stroke_2">
+"       "Fm"            "Db"                 "Fm\n
+2  Atât de aproape e Domnul,\n
+    "  "Emb"           "Db"           "Emb\n
+    Văd îngerii gata de zbor,\n
+    "   "Db"                "Ab"             "Db\n
+    Cetatea cea sfântă îmi cheamă\n
+    "  "Db"                              "Emb\n
+    Privirea, cântarea de dor.\n
+        \t\t"    "Gb"          "Ab"         "Bmb\n
+        \t\tDă-mi Doamne iubirea \n
+        \t\t"   "Emb"                        "Ab\n
+        \t\tSă spun tuturor ce-ai promis,\n
+        \t\tGb"    "Db"            "Ab"         "Db\n
+        \t\tSă-mi fie deplină jertfirea,\n
+        \t\t" "Emb"       "Db"         "Gb"     "Db\n
+        \t\tSă trec peste-al lumii abis\n\n
+</string>
+    <string name="imn6_acorduri_stroke_3">
+"      "Fm"             "Db"              "Fm\n
+3  Atât de aproape e Domnul\n
+    "  "Emb"         "Db"         "Emb\n
+    Zăresc ai Edenului zori,\n
+    "   "Db"            "Ab"         "Db\n
+    Și-n liniștea vieții eterne\n
+    "     "Db"                 "Emb\n
+    Aud glas de biruitori.\n
+\t\t" "Gb"          "Ab"         "Bmb\n
+\t\tDă-mi Doamne iubirea\n
+        \t\t"                    "Emb"            "Ab\n
+        \t\tsă spun tuturor ce-ai promis,\n
+        \t\tGb"    "Db"            "Ab"         "Db\n
+        \t\tSă-mi fie deplină jertfirea,\n
+        \t\t" "Emb"       "Db"         "Gb"     "Db\n
+        \t\tSă trec peste-al lumii abis\n\n
+</string>
+
+    <string name="imn7_title">7. Мой в небе кдрай родной</string>
+    <string name="imn7_stroke_1">
+1  Мой в небе край родной, Мой в небе дом!\n
+    Там мой Отец благой, Мой в небе дом!\n
+    \t\t//:  Я странник на земле,\n
+          \t\tМой путь лежит во мгле,\n
+          \t\tИ скорби лишь кругом,\n
+          \t\tМой в небе дом! ://\n\n
+</string>
+    <string name="imn7_stroke_2">
+2  (F) Не долог путь земной, Мой в небе дом!\n
+          Хоть тяжек жизни бой, Мой в небе дом!\n
+           \t\t//: Но все пройдет, как сон,\n
+               \t\tИ будет путь свершен,\n
+               \t\tИ буду я с Отцом,\n
+               \t\tМой в небе дом! ://\n\n
+</string>
+    <string name="imn7_stroke_3">
+3  (M) Там, где Христа народ, Мой в небе дом!\n
+     (F)  Мой дух туда влечет, Мой в небе дом!\n
+           \t\t//: Там буду ликовать,\n
+                \t\tИисуса воспевать\n
+                \t\tПеред Его лицом,\n
+         \t\tМой в небе дом! ://\n\n
+                \t\t\t\tАллилуйя x4\n\n
+</string>
+    <string name="imn7_stroke_4">
+4  И буду ль я страдать, Мой в небе дом!\n
+     Все ж не могу роптать, Мой в небе дом!\n
+     \t\t//: Ведь Сам Христос страдал\n
+         \t\tИ в небе обещал\n
+          \t\tУкрасить Он венцом,\n
+           \t\tМой в небе дом! ://\n\n
+</string>
+    <string name="imn7_acorduri_stroke_1">
+"     "Dm"                                "A"                    "Dm\n
+1  Мой в небе край родной, Мой в небе дом!\n
+    Dm"                             "A"                  "Dm -- C\n
+    Там мой Отец благой, Мой в небе дом!\n
+    \t\t"      "F"                             "C\n
+    \t\t//:  Я странник на земле,\n
+          \t\t"                "A\n
+          \t\tМой путь лежит во мгле,\n
+          \t\t" "Dm"                                     "A\n
+          \t\tИ скорби лишь кругом,\n
+         \t\t"                  "Dm -- C\n
+          \t\tМой в небе дом! ://\n\n
+</string>
+    <string name="imn7_acorduri_stroke_2">
+"           "Dm"                           "A"                    "Dm\n
+2  (F) Не долог путь земной, Мой в небе дом!\n
+          " "Dm"                               "A"                 "Dm\n
+          Хоть тяжек жизни бой, Мой в небе дом!\n
+           \t\t"     "F"                                   "C\n
+           \t\t//: Но все пройдет, как сон,\n
+               \t\t"             "A\n
+               \t\tИ будет путь свершен,\n
+               \t\t" "Dm"                        "A\n
+               \t\tИ буду я с Отцом,\n
+               \t\t"                  "Dm--C\n
+               \t\tМой в небе дом! ://\n\n
+</string>
+    <string name="imn7_acorduri_stroke_3">
+"            "Dm"                                 "A"                    "Dm\n
+3  (M) Там, где Христа народ, Мой в небе дом!\n
+     "        "Dm"                              "A"                 "Dm -- C\n
+     (F)  Мой дух туда влечет, Мой в небе дом!\n
+           "           "F"                            "C\n
+           \t\t//: Там буду ликовать,\n
+                \t\t"            "A\n
+                \t\tИисуса воспевать\n
+                \t\t"  "Dm"                        "A\n
+                \t\tПеред Его лицом,\n
+                \t\t"              "Dm--C\n
+                \t\tМой в небе дом! ://\n\n
+                \t\t\t\tАллилуйя x4\n\n
+</string>
+    <string name="imn7_acorduri_stroke_4">
+"     "Dm"                               "A"                     "Dm\n
+4  И буду ль я страдать, Мой в небе дом!\n
+     Dm"                            "A"                  "Dm -- C\n
+     Все ж не могу роптать, Мой в небе дом!\n
+     "            "F"                              "C\n
+     \t\t//: Ведь Сам Христос страдал\n
+         \t\t"             "A\n
+         \t\tИ в небе обещал\n
+          \t\t"      "Dm"                 "A\n
+          \t\tУкрасить Он венцом,\n
+           \t\t"                "Dm--C\n
+           \t\tМой в небе дом! ://\n\n
+</string>
+
+    <string name="imn8_title">8. Mai sus de oamnei</string>
+    <string name="imn8_stroke_1">
+1  Mai sus de oameni şi de-mpărați,\n
+    Mai sus de toate pe care le-ai creat,\n
+    Mai sus de lume, mai sus de înțelepți\n
+    Tu ai fost, rămâi în veci de veci.\n
+    Mai sus de tronuri și-mpărații,\n
+    Mai sus de-a lumii mari minunății,\n
+    Mai sus de aur și tot ce-i valoros,\n
+    Tu rămâi în veci cel mai prețios.\n\n
+</string>
+    <string name="imn8_refren">
+\t\tR:  Răstignit şi pus într-un mormânt\n
+      \t\tCa să mori, venit-ai pe pământ\n
+      \t\tŞi zdrobit ca un trandafir,\n
+      \t\tTu ai căzut, și te-ai gândit, doar la min.\n
+\t\tŞi zdrobit ca un trandafir,\n
+        \t\tTu ai căzut și Te-ai gandit doar la min.\n\n
+</string>
+    <string name="imn8_acorduri_stroke_1">
+"    "G"         "C"           "D"          "G"   "G/B\n
+1  Mai sus de oameni şi de-mpărați,\n
+    "            "C"            "D"             "G"   "D/F#\n
+    Mai sus de toate pe care le-ai creat,\n
+    "            "Em"            "D"          "C"  "G/B\n
+    Mai sus de lume, mai sus de înțelepți\n
+    Am"                            "D/F#"   "G/B\n
+    Tu ai fost, rămâi în veci de veci.\n
+    "           "C"           "D"          "G"   "G/B\n
+    Mai sus de tronuri și-mpărații,\n
+    "           "C"          "D"          "G"   "D/F#\n
+    Mai sus de-a lumii mari minunății,\n
+    "           "Em"      "D"            "C"  "G/B\n
+    Mai sus de aur și tot ce-i valoros,\n
+    Am"                                    "Bsus4 B D/F#\n
+    Tu rămâi în veci cel mai prețios.\n\n
+</string>
+    <string name="imn8_acorduri_refren">
+\t\t"     "G"      "Am"     "D/F#"           "G\n
+\t\tR:  Răstignit şi pus într-un mormânt\n
+      \t\t"           "Am"     "D/F#"               "G\n
+      \t\tCa să mori, venit-ai pe pământ\n
+      \t\tD/F#"   "Em"   "D"                "C"  "G/B\n
+      \t\tŞi zdrobit ca un trandafir,\n
+      \t\t"             "Am"  "G/B"            "C"    "D"           "G\n
+      \t\tTu ai căzut, și te-ai gândit, doar la min.\n
+\t\tD/F#"   "Em"   "D"                "C"  "G/B\n
+\t\tŞi zdrobit ca un trandafir,\n
+        \t\t"             "Am"  "G/B"            "C"    "D"           "G\n
+        \t\tTu ai căzut și Te-ai gandit doar la min.\n\n
+</string>
+
+    <string name="imn9_title">9. Înaintea Ta Isuse</string>
+    <string name="imn9_stroke_1">
+1  Înaintea ta Isuse mă închin eu astăzi\n
+    Te iubesc și eu te rog ascultă-mi ruga mea\n
+    O Isus păzește-mă cu mâna Ta puternică\n
+    Eu sunt păcătos pe-acest pământ\n\n
+</string>
+    <string name="imn9_stroke_2">
+2  Înaintea tronului eu vin cu rugăciunea mea\n
+    Şi cu lacrimi pe obraji te rog o iartă-mă\n
+    Numai tu Isuse poți să-mi înțelegi păcatul meu\n
+    Să mă ierți să-mi dai viaţa-n dar.\n\n
+</string>
+    <string name="imn9_refren">
+\t\tR:  Pe acest pamant sunt atatea cai\n
+      \t\tSă-mi găsesc eu calea //: nu-i ușor ://\n
+      \t\tCalea lui Isus dacă ti-ai ales\n
+      \t\tSlavă, cinste Isus îți va da\n\n
+</string>
+    <string name="imn9_acorduri_stroke_1">
+"    "Am"                                                      "Dm\n
+1  Înaintea ta Isuse mă închin eu astăzi\n
+    "     "G"                           "C"                                "E\n
+    Te iubesc și eu te rog ascultă-mi ruga mea\n
+    "    "Am"                                                    "Dm\n
+    O Isus păzește-mă cu mâna Ta puternică\n
+    "        "G"                      "C"                 "Am\n
+    Eu sunt păcătos pe-acest pământ\n\n
+</string>
+    <string name="imn9_acorduri_stroke_2">
+"     "Am"                                                     "Dm\n
+2  Înaintea tronului eu vin cu rugăciunea mea\n
+    "      "G"                           "C"                            "E\n
+    Şi cu lacrimi pe obraji te rog o iartă-mă\n
+    "     "Am"                                                    "Dm\n
+    Numai tu Isuse poți să-mi înțelegi păcatul meu\n
+    "     "G"                      "C"                "Am\n
+    Să mă ierți să-mi dai viaţa-n dar.\n\n
+</string>
+    <string name="imn9_acorduri_refren">
+\t\t"      "Am"                                             "Dm\n
+\t\tR:  Pe acest pamant sunt atatea cai\n
+      \t\t"     "G"                            "C"                  "E\n
+      \t\tSă-mi găsesc eu calea //: nu-i ușor ://\n
+      \t\t"    "Am"                                    "Dm\n
+      \t\tCalea lui Isus dacă ti-ai ales\n
+      \t\t"   "G"                                      "Am\n
+      \t\tSlavă, cinste Isus îți va da\n\n
+</string>
+
+    <string name="imn10_title">10. În brațul Tău</string>
+    <string name="imn10_stroke_1">
+1  În brațul Tău, mă dedic din nou\n
+    Cu tot ce sunt, Doamne\n
+    Tu viaţa mea, o ții în mână Ta\n
+    Şi sunt al Tău, pe veci\n\n
+</string>
+    <string name="imn10_stroke_2">
+2  Te voi avea mereu naintea mea\n
+    În orice zi, mă-ncred în Tine\n
+    Şi voi trăi, în ale Tale căi\n
+    Cuvântul Tău, pe veci\n\n
+</string>
+    <string name="imn10_refren">
+\t\tR:  Isus eu mă-ncred în Tin’\n
+      \t\tIsus ţie-Ţi aparțin\n
+      \t\tPentru Tine eu trăiesc\n
+      \t\tPe deplin mă dăruiesc\n\n
+</string>
+    <string name="imn10_acorduri_stroke_1">
+"    "C"               "Em"  "G"                  "Am\n
+1  În brațul Tău, mă dedic din nou\n
+    "    "G"             "F"       "G\n
+    Cu tot ce sunt, Doamne\n
+    C"                 "Em"   "G"            "Am\n
+    Tu viaţa mea, o ții în mână Ta\n
+    " "G"              "F"           "G\n
+    Şi sunt al Tău, pe veci\n\n
+</string>
+    <string name="imn10_acorduri_stroke_2">
+"      "C"               "Em"  "G"                  "Am\n
+2  Te voi avea mereu naintea mea\n
+    "     "G"             "F"       "G\n
+    În orice zi, mă-ncred în Tine\n
+    " "C"         "Em"   "G"            "Am\n
+    Şi voi trăi, în ale Tale căi\n
+    " "G"              "F"           "G\n
+    Cuvântul Tău, pe veci\n\n
+</string>
+    <string name="imn10_acorduri_refren">
+\t\t"                         "C"              "F\n
+\t\tR:  Isus eu mă-ncred în Tin’\n
+      \t\t"            "C"           "F\n
+      \t\tIsus ţie-Ţi aparțin\n
+      \t\t"             "Dm"            "F\n
+      \t\tPentru Tine eu trăiesc\n
+      \t\t"           "G"                  "C\n
+      \t\tPe deplin mă dăruiesc\n\n
+</string>
+
+    <string name="imn11_title">11. ( 35 ) 10000 de motive</string>
+    <string name="imn11_stroke_1">
+1 E o nouă zi, soarele răsare,\n
+  Eu vin să cânt spre slava Ta.\n
+  Orice-ar veni, orice-n cale mi-ar apare,\n
+  Eu nu mă tem cand mergi-naintea mea.\n\n
+</string>
+    <string name="imn11_refren">
+\t\tR:  Cântă suflet al meu,\n
+      \t\tPentru Dumnezeu,\n
+      \t\tCel binecuvântat!\n
+      \t\tAl Său nume e sfânt,\n
+      \t\tCantă-acum\n
+      \t\tCum nu ai mai cântat.\n\n
+</string>
+    <string name="imn11_stroke_2">
+2 O Doamne Tu ești a mea tărie,\n
+    În dragoste ești bogat și bun.\n
+    Găsesc că am zece mii de motive\n
+    Să laud astăzi al Tău nume.\n\n
+</string>
+    <string name="imn11_stroke_3">
+3  Dar când sfarsitul îmi va fi aproape,\n
+    Puterile îmi vor slăbi,\n
+    Al meu suflet va cânta de-a pururi\n
+    Mărire, slavă, aleluia.\n\n
+</string>
+    <string name="imn11_acorduri_stroke_1">
+"      "C"   "G"        "D"     "Em\n
+1 E o nouă zi, soarele răsare,\n
+  "   "C"            "G"             "D"    "Em\n
+  Eu vin să cânt spre slava Ta.\n
+  "    "C"      "G"          "D"                 "Em\n
+  Orice-ar veni, orice-n cale mi-ar apare,\n
+  " "C2"           "G"                         "Dsus4 D Gsus4\n
+  Eu nu mă tem cand mergi-naintea mea.\n\n
+</string>
+    <string name="imn11_acorduri_refren">
+\t\t"      "C"        "G\n
+\t\tR:  Cântă suflet al meu,\n
+      \t\tD"           "Em\n
+      \t\tPentru Dumnezeu,\n
+      \t\tC"      "G"      "Dsus4 D\n
+      \t\tCel binecuvântat!\n
+      \t\t"       "C"      "Em\n
+      \t\tAl Său nume e sfânt,\n
+      \t\tC"  "D"   "Em\n
+      \t\tCantă-acum\n
+      \t\t" "C"          "D"      "G\n
+      \t\tCum nu ai mai cântat.\n\n
+</string>
+    <string name="imn11_acorduri_stroke_2">
+2 O Doamne Tu ești a mea tărie,\n
+    În dragoste ești bogat și bun.\n
+    Găsesc că am zece mii de motive\n
+    Să laud astăzi al Tău nume.\n\n
+</string>
+    <string name="imn11_acorduri_stroke_3">
+3  Dar când sfarsitul îmi va fi aproape,\n
+    Puterile îmi vor slăbi,\n
+    Al meu suflet va cânta de-a pururi\n
+    Mărire, slavă, aleluia.\n\n
+</string>
+
+    <string name="imn12_title">12. ( 30 ) Poartă-ți lumia</string>
+    <string name="imn12_stroke_1">
+1  În orice suflet e-un tainic dor\n
+    Aprins în noapte, sau stins și gol\n
+   Dor de lumina, de veşnicie\n
+    Ascuns în inimi de Dumnezeu\n\n
+</string>
+    <string name="imn12_refren">
+   \t\tR: Poartă-ți lumina prin întuneric\n
+        \t\tÎn noaptea făr’ de nadejdi pe drum\n
+        \t\tFar neclintit să-ți fie viața\n
+        \t\tPași să-ndrepte pe drumul bun\n
+        \t\tLasă-n inimi un dor de cer\n\n
+</string>
+    <string name="imn12_stroke_2">
+2  Pe calea noastră se află-aievea\n
+   Lumini căzute și stinse-n vânt\n
+   Şi mulți încearca să ţină-aprinsă\n
+   O amăgire, un dor străin\n\n
+</string>
+    <string name="imn12_stroke_3">
+3 Să lași în urmă ploi de lumină\n
+   Pe drumul celor ce-au rătăcit\n
+   Arată calea, atinge inimi\n
+   Și dă speranță prin Duhul Sfânt\n\n
+</string>
+    <string name="imn12_acorduri_stroke_1">
+"   	                "G"                          "D\n
+1  În orice suflet e-un tainic dor\n
+    "                   "C"                               "D\n
+    Aprins în noapte, sau stins și gol\n
+   "                 "G"                        "D\n
+   Dor de lumina, de veşnicie\n
+    "                       "C"    "D"               "G\n
+    Ascuns în inimi de Dumnezeu\n\n
+</string>
+    <string name="imn12_acorduri_refren">
+   \t\t"                           "G"                      "C\n
+   \t\tR: Poartă-ți lumina prin întuneric\n
+        \t\t"                    "G"                             "D\n
+        \t\tÎn noaptea făr’ de nadejdi pe drum\n
+        \t\t"               "G"                   "C\n
+        \t\tFar neclintit să-ți fie viața\n
+        \t\t"             "G"               "D"             "Em C\n
+        \t\tPași să-ndrepte pe drumul bun\n
+        \t\t"              "G"     "D"                  "G\n
+        \t\tLasă-n inimi un dor de cer\n\n
+</string>
+    <string name="imn12_acorduri_stroke_2">
+"                     "G"                          "D\n
+2  Pe calea noastră se află-aievea\n
+   "                "C"                              "D\n
+   Lumini căzute și stinse-n vânt\n
+   "                  "G"                               "D\n
+   Şi mulți încearca să ţină-aprinsă\n
+   "                  "C"    "D"              "G\n
+   O amăgire, un dor străin\n\n
+</string>
+    <string name="imn12_acorduri_stroke_3">
+"                     "G"                          "D\n
+3 Să lași în urmă ploi de lumină\n
+   "              "C"                               "D\n
+   Pe drumul celor ce-au rătăcit\n
+   "        "G"                              "D\n
+   Arată calea, atinge inimi\n
+   "                       "C"      "D"              "G\n
+   Și dă speranță prin Duhul Sfânt\n\n
+</string>
+
+    <string name="imn13_title">13. ( 24 ) Privește-acum</string>
+    <string name="imn13_stroke_1">
+1   Privește-acum la tot ce-ai strâns\n
+     În pumnii tăi, la ce-ai iubit.\n
+     Si ți-ai dat seama: totul are un sfârșit.\n
+     De ce-ai lăsat în urmă nu ești mulțumit.\n
+     Azi îți dorești să se întoarcă timpul\n
+     Și să-l prețuiești\n
+     Momentul când Isus în cer, din slăvi cerești\n
+     Isus a spus să vii la El, să Îl iubești.\n\n
+</string>
+    <string name="imn13_stroke_2">
+2 Te simți murdar; sunt mii de gânduri ce te-acuză ne-ncetat.\n
+   Pe umeri porți povara care te-a urmat,\n
+   Iar oamenii mult prea ușor te-au acuzat.\n
+   Te simţi înfrânt, iar timpul face pași grăbiți înspre abis.\n
+   Ai vrea sa crezi ca totul este doar un vis\n
+   Pe care zorii unei dimineți l-au stins.\n\n
+</string>
+    <string name="imn13_refren">
+\t\tR:  Tu stai și plângi și nu știi unde vrei să mergi,\n
+      \t\tSufletu-ți frângi și nu știi ce drum să alegi.\n
+      \t\tPrivește-n sus, privește dincolo de nori,\n
+      \t\tCăci doar Isus îți poate da azi ajutor.(Doar Isus)\n\n
+</string>
+    <string name="imn13_acorduri_stroke_1">
+"        "Em\n
+1   Privește-acum la tot ce-ai strâns\n
+     "                                       "Bm\n
+     În pumnii tăi, la ce-ai iubit.\n
+     "                                                             "C\n
+     Si ți-ai dat seama: totul are un sfârșit.\n
+     "        "Am"                                                "B\n
+     De ce-ai lăsat în urmă nu ești mulțumit.\n
+     " "Em\n
+     Azi îți dorești să se întoarcă timpul\n
+     "                     "Bm\n
+     Și să-l prețuiești\n
+     "                                                                       "C\n
+     Momentul când Isus în cer, din slăvi cerești\n
+     "            "Am"                                      "B\n
+     Isus a spus să vii la El, să Îl iubești.\n\n
+</string>
+    <string name="imn13_acorduri_stroke_2">
+"            "Em"                                                                                         "Bm\n
+2 Te simți murdar; sunt mii de gânduri ce te-acuză ne-ncetat.\n
+   "                                                                "C\n
+   Pe umeri porți povara care te-a urmat,\n
+   "       "Am"                                                    "B\n
+   Iar oamenii mult prea ușor te-au acuzat.\n
+   "    "Em"                                                                                  "Bm\n
+   Te simţi înfrânt, iar timpul face pași grăbiți înspre abis.\n
+   "                                                                  "C\n
+   Ai vrea sa crezi ca totul este doar un vis\n
+   "         "Am"                                            "B\n
+   Pe care zorii unei dimineți l-au stins.\n\n
+</string>
+    <string name="imn13_acorduri_refren">
+"            "G"                                                               "D\n
+\t\tR:  Tu stai și plângi și nu știi unde vrei să mergi,\n
+      \t\t"                  "Am"                     "Em"                  "D\n
+      \t\tSufletu-ți frângi și nu știi ce drum să alegi.\n
+      \t\t" "G"                                                            "D\n
+      \t\tPrivește-n sus, privește dincolo de nori,\n
+      \t\t"                   "Am"                  "Em"          "D"                  "Em\n
+      \t\tCăci doar Isus îți poate da azi ajutor.(Doar Isus)\n\n
+</string>
+
+    <string name="imn14_title">14. Iam spus inimii din mine într-o zi</string>
+    <string name="imn14_stroke_1">
+1 I-am spus inimii din mine într-o zi,\n
+   Să Te caute pe Tine orice-ar fi.\n
+   De nu Te va găsi, i-am spus,\n
+   Să nu mai vină înapoi.\n
+   Viața fără Tine n-are nici un rost,\n
+   Doamne sunt pierdut, și nu am adăpost.\n
+   Știu că am greșit, Te rog\n
+   Iar la mine să Te-ntorci.\n\n
+</string>
+    <string name="imn14_refren_1">
+\t\tR: //: Căci fără Tine nu pot trăi,\n
+      \t\tDa, fără Tine nu pot iubi,\n
+      \t\tIar viața mea nu valorează nimic,\n
+      \t\tDacă nu ești Tu în ea. ://\n\n
+</string>
+    <string name="imn14_stroke_2">
+2 Știu că lângă Tine rău nu poate fi,\n
+   Leagă-mă de Tine pentru veșnicii.\n
+   Tu ești tot ce vreau, o, da,\n
+   Ține-mă în mâna Ta.\n\n
+</string>
+    <string name="imn14_refren_2">
+\t\tR2: Vreau să cred cum nu am mai crezut,\n
+       \t\tVreau să văd cum nu am mai văzut,\n
+       \t\tDoar iubirea Ta îmi dă un sens,\n
+       \t\tDoamne Învață-mă, Te rog, cum să iubesc!\n
+      \t\tDoamne Învață-mă, Te rog, cum să iubesc!\n\n
+</string>
+    <string name="imn14_acorduri_stroke_1">
+"     "C"                                                    "Em\n
+1 I-am spus inimii din mine într-o zi,\n
+   "                   "F"                              "C\n
+   Să Te caute pe Tine orice-ar fi.\n
+   "                       "Dm"            "F\n
+   De nu Te va găsi, i-am spus,\n
+   "                                  "C\n
+   Să nu mai vină înapoi.\n
+   C"                                                 "Em\n
+   Viața fără Tine n-are nici un rost,\n
+   "                 "F"                                         "C\n
+   Doamne sunt pierdut, și nu am adăpost.\n
+   "              "Dm"       "F\n
+   Știu că am greșit, Te rog\n
+   "                          "C\n
+   Iar la mine să Te-ntorci.\n\n
+</string>
+    <string name="imn14_acorduri_refren_1">
+\t\t"                           "Dm"                "G\n
+\t\tR: //: Căci fără Tine nu pot trăi,\n
+      \t\t"               "Em"               "Am\n
+      \t\tDa, fără Tine nu pot iubi,\n
+      \t\t"                "Dm"                                 "G\n
+      \t\tIar viața mea nu valorează nimic,\n
+      \t\t"                        "F"       "C\n
+      \t\tDacă nu ești Tu în ea. ://\n\n
+</string>
+    <string name="imn14_acorduri_stroke_2">
+"     "C"                                           "Em\n
+2 Știu că lângă Tine rău nu poate fi,\n
+   "                          "F"                         "C\n
+   Leagă-mă de Tine pentru veșnicii.\n
+   "                "Dm"       "F\n
+   Tu ești tot ce vreau, o, da,\n
+   "                      "C\n
+   Ține-mă în mâna Ta.\n\n
+</string>
+    <string name="imn14_acorduri_refren_2">
+\t\t"                      "Gm"               "F"                     "C\n
+\t\tR2: Vreau să cred cum nu am mai crezut,\n
+       \t\t"                 "Gm"            "F"                   "C\n
+       \t\tVreau să văd cum nu am mai văzut,\n
+       \t\t"             "Gm"    "F"                      "C\n
+       \t\tDoar iubirea Ta îmi dă un sens,\n
+       \t\t"                 "Dm"                    "G"                      "C Am\n
+       \t\tDoamne Învață-mă, Te rog, cum să iubesc!\n
+      \t\t"                  "Dm"                   "G"                      "C\n
+      \t\tDoamne Învață-mă, Te rog, cum să iubesc!\n\n
+</string>
+
+    <string name="imn15_title">15. Demult, demult</string>
+    <string name="imn15_stroke_1">
+1  Demult, demult Isus te cheamă\n
+    Și vrea pe veci a te salva\n
+//: El te iubește ca o mamă\n
+    Tu nu uita chemarea Sa ://\n\n
+</string>
+    <string name="imn15_stroke_2">
+2  Deci pâna ușa e deschisă\n
+    Și până ține harul Său\n
+//: Azi când intrarea e permisă\n
+    Întoarce-te la Dumnezeu ://\n\n
+</string>
+    <string name="imn15_stroke_3">
+3  Dacă rămâi și mai departe\n
+    În necredință și păcat\n
+//: Atunci pedeapsa te ațteaptă\n
+    Ce singur tu ți-ai câștigat ://\n\n
+</string>
+    <string name="imn15_stroke_4">
+4  Acum e vremea potrivită\n
+    Să te apleci la crucea Lui\n
+//: Tu lasă lumea trecătoare\n
+    Și vino-n slujba Domnului ://\n\n
+</string>
+    <string name="imn15_stroke_5">
+5  Azi vino când El te-așteaptă\n
+    Când auzi vocea Lui chemând\n
+//: Și ziua cea mai fericită\n
+    Sa zici o Doamne vin curand ://\n\n
+</string>
+
+    <string name="imn16_title">16. Sunt un pribeag</string>
+    <string name="imn16_stroke_1">
+1  Sunt un pribeag fără de țară\n
+    Rătăcitor prin lumi pustii\n
+    Dar am în ceruri o comoară\n
+    Şi țara mea-i în veșnicii\n\n
+</string>
+    <string name="imn16_refren">
+\t\tR:   Mă-ndrept spre cer să-l vad pe Domnul\n
+       \t\tSă nu mai fiu un peregrin\n
+      \t\tCăci după ce-am să trec Iordanul\n
+      \t\tSe va usca şi-al meu suspin.\n\n
+</string>
+    <string name="imn16_stroke_2">
+2  Tu vezi ce grea mi-i naintarea\n
+    Mă lupt să biruiesc mereu\n
+    Un dor nespus mă cheamă-acasă\n
+    E dorul după Dumnezeu.\n\n
+</string>
+    <string name="imn16_stroke_3">
+3 Voi lepăda a mea povară\n
+   Eliberat sub crucea Sa\n
+   Nădejdea mea nu poat să moară\n
+   Şi voi intra-n odihna Sa\n\n
+</string>
+    <string name="imn16_acorduri_stroke_1">
+"    "Dm\n
+1  Sunt un pribeag fără de țară\n
+  	"          "Dm"     	              "Am\n
+    Rătăcitor prin lumi pustii\n
+    "  "Am\n
+    Dar am în ceruri o comoară\n
+    "         "Dm"                 "Am\n
+    Şi țara mea-i în veșnicii\n\n
+</string>
+    <string name="imn16_acorduri_refren">
+\t\t"           "Fm" 	                                        	     "Am\n
+\t\tR:   Mă-ndrept spre cer să-l vad pe Domnul\n
+     	\t\t" "F"    	                            "E\n
+       \t\tSă nu mai fiu un peregrin\n
+     \t\t"	"Am\n
+      \t\tCăci după ce-am să trec Iordanul\n
+	  \t\t"           "Dm"                   "Am\n
+      \t\tSe va usca şi-al meu suspin.\n\n
+</string>
+    <string name="imn16_acorduri_stroke_2">
+"    "Dm\n
+2  Tu vezi ce grea mi-i naintarea\n
+    "                  "Dm"             "Am\n
+    Mă lupt să biruiesc mereu\n
+    " "Am\n
+    Un dor nespus mă cheamă-acasă\n
+    "               "Dm"              "Am\n
+    E dorul după Dumnezeu.\n\n
+</string>
+    <string name="imn16_acorduri_stroke_3">
+"     "Dm\n
+3 Voi lepăda a mea povară\n
+   "              "Dm"            "Am\n
+   Eliberat sub crucea Sa\n
+   "  "Am\n
+   Nădejdea mea nu poat să moară\n
+   "                "Dm"             "Am\n
+   Şi voi intra-n odihna Sa\n\n
+</string>
+
+    <string name="imn17_title">17. E mult prea scumpă viața asta</string>
+    <string name="imn17_stroke_1">
+E mult prea scumpă viața asta\n
+Ca s-o petreci nepăsător\n
+\t\t//: E mult prea scumpă orice clipa\n
+\t\t"    "S-o laşi să treacă fără spor ://\n\n
+</string>
+    <string name="imn17_stroke_2">
+E mult prea scump cuvântul vieţii\n
+Să-l poți uita şi-un ceas măcar\n
+\t\t//: E mult prea scumpă rugăciunea\n
+\t\t"    "S-o poţi nesocoti vreun har ://\n\n
+</string>
+    <string name="imn17_stroke_3">
+E mult prea scumpă adunarea\n
+Să nu faci totul pentru ea\n
+\t\t//: E mult prea scumpă-mbrăţişarea\n
+\t\t"    "Să-ți pară vreo iertare grea ://\n\n
+</string>
+    <string name="imn17_stroke_4">
+E mult prea scumpă răsplătirea\n
+Statorniciei la sfârșit\n
+\t\t//: Să-ți par-acum prea grea-ncercarea\n
+\t\t"    "Pe care-o ai de suferit ://\n\n
+</string>
+    <string name="imn17_stroke_5">
+E mult prea scumpă mântuirea\n
+Să nu-i dai totul pe pământ\n
+        \t\t//: şi pacea inimii și slava\n
+\t\t"    "Statornicului legământ ://\n\n
+</string>
+    <string name="imn17_stroke_6">
+E mult prea scumpă veşnicia\n
+S-o dai pe-o umbră și pe-un gând\n
+\t\t//: E mult prea scump Hristos și Raiul\n
+\t\t"    "Să nu dai tot să-l ai acum ://\n\n
+</string>
+    <string name="imn17_acorduri_stroke_1">
+" "G"                          "Am\n
+E mult prea scumpă viața asta\n
+"   "D"                 "G\n
+Ca s-o petreci nepăsător\n
+\t\t"                               "Am\n
+\t\t//: E mult prea scumpă orice clipa\n
+\t\t"     "D"                    "G\n
+\t\t"    "S-o laşi să treacă fără spor ://\n\n
+</string>
+    <string name="imn17_acorduri_stroke_2">
+" "G"                                  "Am\n
+E mult prea scump cuvântul vieţii\n
+"    "D"              "G\n
+Să-l poți uita şi-un ceas măcar\n
+\t\t"                                    "Am\n
+\t\t//: E mult prea scumpă rugăciunea\n
+\t\t"     "D"                      "G\n
+\t\t"    "S-o poţi nesocoti vreun har ://\n\n
+</string>
+    <string name="imn17_acorduri_stroke_3">
+" "G"                               "Am\n
+E mult prea scumpă adunarea\n
+"    "D"                  "G\n
+Să nu faci totul pentru ea\n
+\t\t"                                        "Am\n
+\t\t//: E mult prea scumpă-mbrăţişarea\n
+\t\t"         "D"                    "G\n
+\t\t"    "Să-ți pară vreo iertare grea ://\n\n
+</string>
+    <string name="imn17_acorduri_stroke_4">
+" "G"                                  "Am\n
+E mult prea scumpă răsplătirea\n
+" "D"                 "G\n
+Statorniciei la sfârșit\n
+\t\t"                                         "Am\n
+\t\t//: Să-ți par-acum prea grea-ncercarea\n
+\t\t"        "D"                  "G\n
+\t\t"    "Pe care-o ai de suferit ://\n\n
+</string>
+    <string name="imn17_acorduri_stroke_5">
+G"                                "Am\n
+E mult prea scumpă mântuirea\n
+"    "D"                "G\n
+Să nu-i dai totul pe pământ\n
+\t\t"                      "Am\n
+\t\t//: Și pacea inimii și slava\n
+\t\t"      "D"                    "G\n
+\t\t"    "Statornicului legământ ://\n\n
+</string>
+    <string name="imn17_acorduri_stroke_6">
+" "G"                               "Am\n
+E mult prea scumpă veşnicia\n
+"      "D"                      "G\n
+S-o dai pe-o umbră și pe-un gând\n
+\t\t"                                       "Am\n
+\t\t//: E mult prea scump Hristos și Raiul\n
+\t\t"             "D"                 "G\n
+\t\t"    "Să nu dai tot să-l ai acum ://\n\n
+</string>
+
+    <string name="imn18_title">18. Doamne dă-ne înțelepciune </string>
+    <string name="imn18_stroke_1">
+1. Doamne dă-ne înțelepciune și putere și iubire,\n
+Doamne vrem să ascultăm Cuvântul Tău!\n
+Azi venim în fața Ta, dă-ne Doamne harul Tău,\n
+Sa fim vii, întru Împărăția Ta!\n
+Trezeste-ne din nou!\n\n
+</string>
+    <string name="imn18_stroke_2">
+2. Doamne mulți au obosit și în inimi sunt răniți,\n
+Vindecarea lor e doar în mâna Ta!\n
+Să ne-atingi pe fiecare cu puterea crucii Tale,\n
+Să fim vii întru Împărăția Ta,\n
+Trezește-ne din nou!\n\n
+</string>
+    <string name="imn18_refren">
+\t\tRef: Doamne, atinge-ne din nou,\n
+\t\tPeste noi Tu mâna Ta s-o pui,\n
+\t\tȘi Lumina Ta să ardă-n noi\n
+\t\tPrin puterea Duhului!\n
+\t\tPune-o, dar nu pentru-o zi ,\n
+\t\tCi să ardă-n veșnicii în noi,\n
+\t\tCu-adierea Duhului Tău Sfânt,\n
+\t\tDoamne, atinge-ne din nou!\n\n
+</string>
+    <string name="imn18_acorduri_stroke_1">
+"     "D"              "G"               "D"             "A\n
+1. Doamne dă-ne înțelepciune și putere și iubire,\n
+G"               "Em"                 "A\n
+Doamne vrem să ascultăm Cuvântul Tău!\n
+D"                "G"     "D"                "A\n
+Azi venim în fața Ta, dă-ne Doamne harul Tău,\n
+G"               "Em"             "A\n
+Sa fim vii, întru Împărăția Ta!\n
+A"                "D\n
+Trezeste-ne din nou!\n\n
+</string>
+    <string name="imn18_acorduri_stroke_2">
+"    "D"             "G"              "D"            "A\n
+2. Doamne mulți au obosit și în inimi sunt răniți,\n
+G"               "Em"                 "A\n
+Vindecarea lor e doar în mâna Ta!\n
+D"                "G"     "D"                  "A\n
+Să ne-atingi pe fiecare cu puterea crucii Tale,\n
+G"               "Em"             "A\n
+Să fim vii întru Împărăția Ta,\n
+A"               "D\n
+Trezește-ne din nou!\n\n
+</string>
+    <string name="imn18_acorduri_refren">
+\t\t"      "D"            "B7"        "E\n
+\t\tRef: Doamne, atinge-ne din nou,\n
+\t\tA"                 "D"       "Bm\n
+\t\tPeste noi Tu mâna Ta s-o pui,\n
+\t\tBm"            "Em"         "A\n
+\t\tȘi Lumina Ta să ardă-n noi\n
+\t\t"                "D\n
+\t\tPrin puterea Duhului!\n
+\t\tD"            "B7"        "Em\n
+\t\tPune-o, dar nu pentru-o zi ,\n
+\t\t" "A"               "D"       "Bm\n
+\t\tCi să ardă-n veșnicii în noi,\n
+\t\tBm"               "Em"         "A\n
+\t\tCu-adierea Duhului Tău Sfânt,\n
+\t\tA"                      "D\n
+\t\tDoamne, atinge-ne din nou!\n\n
+</string>
+
+    <string name="imn19_title">19. Îți mulțumesc</string>
+    <string name="imn19_stroke_1">
+1 Îți mulțumesc că pot să privesc\n
+   Frumusețea din flori când despre ceruri vorbesc\n
+   Culori de vis pe cer mi-a aprins\n
+   Din dragostea Lui de Tată\n\n
+</string>
+    <string name="imn19_refren_1">
+\t\tRef: Minunat Doamne Tu ai creat\n
+        \t\tFlori şi păsări și cerul curat\n
+        \t\tPe întinse mări pe albastrele zări\n
+        \t\tToate de Tine vorbesc\n\n
+</string>
+    <string name="imn19_stroke_2">
+2 Îți mulțumesc că pot să ascult\n
+   Cum îţi cână în cor păsări și râuri curgând\n
+   Dar mai frumos e-al nostru prinos\n
+   E glasul ce-ţi spune Tată\n\n
+</string>
+    <string name="imn19_stroke_3">
+3 Îţi mulțumesc că tot ce privesc\n
+   Mă ajută să urc spre paradisul ceresc\n
+   Pe munți și nori pe soare și flori\n
+   Pe toate ai scris iubire\n\n
+</string>
+    <string name="imn19_refren_2">
+\t\tDe tine îmi vorbesc\n\n
+</string>
+
+    <string name="imn20_title">20. În fața tronului de sus</string>
+    <string name="imn20_stroke_1">
+1 În fața tronului de sus\n
+   Eu am un bun apărător,\n
+   Un mare Preot, pe Isus\n
+   La care aflu ajutor.\n\n
+</string>
+    <string name="imn20_refren_1">
+   \t\tSăpat eu sunt pe mâna Sa\n
+   \t\tŞi pe-a Lui inimă sunt scris\n
+   \t\tIar cât în ceruri El va sta,\n
+   \t\tPârâșul meu va fi invis.\n\n
+</string>
+    <string name="imn20_stroke_2">
+2 Satan când mă va acuza\n
+   Spunându-mi că sunt vinovat,\n
+   Privesc la Domnul, Stânca mea,\n
+   Ce-a şters pe cruce-al meu păcat.\n\n
+</string>
+    <string name="imn20_refren_2">
+   \t\tFiindca Domnul a murit,\n
+   \t\tEu am ajuns neprihănit\n
+   \t\tDreptatea s-a îndeplinit,\n
+      \t\t//: Prin moartea Lui sunt mântuit ://\n\n
+</string>
+    <string name="imn20_stroke_3">
+3 Și iată Mielul înălțat,\n
+   Cel nepătat, neprihănit,\n
+   Cuvântul viu și întrupat\n
+   E Rege-al regilor slăvit.\n\n
+</string>
+    <string name="imn20_refren_3">
+   \t\tUnit cu El nu voi muri,\n
+\t\tCu sânge m-a răscumpărat;\n
+   \t\tVoi fi cu El în veșnicii,\n
+      \t\t//: Cu Domnul meu glorificat! ://\n\n
+</string>
+    <string name="imn20_acorduri_stroke_1">
+"       	   "C"  	      "F"   	   "C\n
+1 În fața tronului de sus\n
+   "  	      "C"        "Em\n
+   Eu am un bun apărător,\n
+   "   	     "F" 	   "G"      "Am\n
+   Un mare Preot, pe Isus\n
+   "  	      "F" 	     "G"     "C\n
+   La care aflu ajutor.\n\n
+</string>
+    <string name="imn20_acorduri_refren_1">
+   \t\t"    	 "F"          "G"      "C\n
+   \t\tSăpat eu sunt pe mâna Sa\n
+   \t\t"            	   "F"             	   "Am\n
+   \t\tŞi pe-a Lui inimă sunt scris\n
+   \t\t"     	   "F"  	    "G"  	   "Am\n
+   \t\tIar cât în ceruri El va sta,\n
+   \t\t"  	      "F"      	   "G"	               "Am--C\n
+   \t\t//:Pârâşul meu va fi învins,://\n\n
+</string>
+    <string name="imn20_acorduri_stroke_2">
+"             "C"   	    "F"  	      "C\n
+2 Satan când mă va acuza\n
+   "               "C"        "Em\n
+   Spunându-mi că sunt vinovat,\n
+   "              "F" 	      "G"       "Am\n
+   Privesc la Domnul, Stânca mea,\n
+   "            "F"        	   "G"     "C\n
+   Ce-a şters pe cruce-al meu păcat.\n\n
+</string>
+    <string name="imn20_acorduri_refren_2">
+   \t\t"    "F"        "G"           "C\n
+   \t\tFiindca Domnul a murit,\n
+   \t\t"                "F"            	   "Am\n
+   \t\tEu am ajuns neprihănit\n
+   \t\t"         "F" 	     "G"  	  "Am\n
+   \t\tDreptatea s-a îndeplinit,\n
+      \t\t"       "F"       "G"                 "Am--C\n
+      \t\t//: Prin moartea Lui sunt mântuit ://\n\n
+</string>
+    <string name="imn20_acorduri_stroke_3">
+"            "C"   	   "F"   	  "C\n
+3 Și iată Mielul înălțat,\n
+   "              "C"        "Em\n
+   Cel nepătat, neprihănit,\n
+   "      "F"     	   "G"     "Am\n
+   Cuvântul viu și întrupat\n
+   "        "F"    	   "G"    "C\n
+   E Rege-al regilor slăvit.\n\n
+</string>
+    <string name="imn20_acorduri_refren_3">
+   \t\t"      "F" 	       "G"     "C\n
+   \t\tUnit cu El nu voi muri,\n
+\t\t"                "F"                	   "Am\n
+\t\tCu sânge m-a răscumpărat;\n
+   \t\t"   "F"       	   "G" 	    "Am\n
+   \t\tVoi fi cu El în veșnicii,\n
+      \t\t"               "F"      "G"                  "Am--C\n
+      \t\t//: Cu Domnul meu glorificat! ://\n\n
+</string>
+
+    <string name="imn21_title">21. Vin la Tatăl</string>
+    <string name="imn21_stroke_1">
+1 Vin’ la Tatăl, El te cheamă\n
+   Vin’ acasă fiu pierdut\n
+   De nimic nu-ţi fie teamă\n
+   El va șterge al tău trecut.\n\n
+</string>
+    <string name="imn21_refren">
+\t\tR:  Vino azi, vin’ la El\n
+      \t\tPentru ce-ai întârziat?\n
+      \t\tVino azi, vin’ la El\n
+      \t\tVin’ şi El te va ierta.\n\n
+</string>
+    <string name="imn21_stroke_2">
+2 Prea mult timp în suferință\n
+   Ai trăit nefericit\n
+   Dar acum prin pocăință\n
+   Ai putea fi mântuit.\n\n
+</string>
+    <string name="imn21_stroke_3">
+3 Azi păcatul te robeşte\n
+   Sub un jug apăsător\n
+   Dar Isus tot te iubește\n
+   Vrea să-ți vină-n ajutor.\n\n
+</string>
+    <string name="imn21_stroke_4">
+4 Spune-i Lui toată durerea\n
+   Tot păcatul spune-i Lui.\n
+   Tatăl vrea să-ți dea iertarea\n
+   Prin jertfirea Fiului.\n\n
+</string>
+
+    <string name="imn22_title">22. Ne-ai arătat cum să trăim</string>
+    <string name="imn22_stroke_1">
+1.Ne-ai arătat cum să trăim\n
+Ne-ai învățat să ne iubim\n
+Şi când ne e prea greu\n
+Să ne-ndreptăm privirea către Ceruri\n
+"     "Și totuși Doamne ne e greu\n
+"     "Nu mai știm ce e bun sau rău\n
+"     "Din tot ce-avem și știm\n
+"     "Nu mai aflăm cărarea către Ceruri\n\n
+</string>
+    <string name="imn22_refren">
+\t\tR: O Te rugăm\n
+     \t\tMai da-ne un semn, un strop de har\n
+     \t\tȘi spune Doamne cum\n
+     \t\tSă trăim în lumea de acum\n
+        "     "\t\tSuntem ai Tai\n
+        "     "\t\tȘi mari şi mici, şi buni şi răi\n
+        "     "\t\tÎntinde brațul tău\n
+        "     "\t\tŞi ne condu pe-al nostru drum\n\n
+</string>
+    <string name="imn22_stroke_2">
+2.Cu cât mai mult am descoperit\n
+Mai complicaţi am devenit\n
+Dar am găsit ceva\n
+Din sensul vieţii ce ai pus-o-n noi\n
+"     "Te căutam în Univers\n
+"     "Și vrem să știm al lumii mers\n
+"     "Dar tot uităm\n
+"     "Să fim mai buni cu cei de lângă noi\n\n
+</string>
+    <string name="imn22_stroke_3">
+3.De ne-am putea elibera,\n
+Bariere, ziduri sfărâma,\n
+Am rămâne toți\n
+Umili şi simpli și adevărați\n
+"     "Ne-ai fi Tu Doamne singur ţel\n
+"     "Şi ne-am privi-ntre noi la fel\n
+"     "Ne-am da mâinile\n
+"     "Şi-am fi cu-adevarat cu toții frați.\n\n
+</string>
+    <string name="imn22_acorduri_stroke_1">
+"                     "F\n
+1.Ne-ai arătat cum să trăim\n
+"                                      "Dm\n
+Ne-ai învățat să ne iubim\n
+"          "A\n
+Şi când ne e prea greu\n
+"                          "Bb"                                  "C\n
+Să ne-ndreptăm privirea către Ceruri\n
+"     ""                                "F\n
+"     "Și totuși Doamne ne e greu\n
+"     ""                                              "Dm\n
+"     "Nu mai știm ce e bun sau rău\n
+"     ""                   "Dm\n
+"     "Din tot ce-avem și știm\n
+"     ""                   "Bb\n
+"     "Nu mai aflăm cărarea către ceruri\n\n
+</string>
+    <string name="imn22_acorduri_refren">
+\t\t"      "C\n
+\t\tR: O Te rugăm\n
+     \t\t" "F"                                                        "Dm\n
+     \t\tMai da-ne un semn, un strop de har\n
+     \t\t"                                         "Bb\n
+     \t\tȘi spune Doamne cum\n
+     \t\t"                                                "C\n
+     \t\tSă trăim în lumea de acum\n
+"     "\t\t"                         "F\n
+"     "\t\tSuntem ai Tai\n
+"     "\t\t"                                              "Dm\n
+"     "\t\tȘi mari şi mici, şi buni şi răi\n
+"     "\t\t"                              "Bb\n
+"     "\t\tÎntinde brațul tău\n
+"     "\t\t"                                                      "C\n
+"     "\t\tŞi ne condu pe-al nostru drum\n\n
+</string>
+    <string name="imn22_acorduri_stroke_2">
+"                          "F\n
+2.Cu cât mai mult am descoperit\n
+"                                              "Dm\n
+Mai complicaţi am devenit\n
+"          "Dm\n
+Dar am găsit ceva\n
+"                       "Bb"                               "C\n
+Din sensul vieţii ce ai pus-o-n noi\n
+"     ""                         "F\n
+"     "Te căutam în Univers\n
+"     ""                                              "Dm\n
+"     "Și vrem să știm al lumii mers\n
+"     ""       "Dm\n
+"     "Dar tot uităm\n
+"     ""                      "Bb\n
+"     "Să fim mai buni cu cei de lângă noi\n\n
+</string>
+    <string name="imn22_acorduri_stroke_3">
+"                           "F\n
+3.De ne-am putea elibera,\n
+"                                    "Dm\n
+Bariere, ziduri sfărâma,\n
+"              "Dm\n
+Am rămâne toți\n
+"                 "Bb"                          "C\n
+Umili şi simpli și adevărați\n
+"     ""                                        "F\n
+"     "Ne-ai fi Tu Doamne singur ţel\n
+"     ""                                           "Dm\n
+"     "Şi ne-am privi-ntre noi la fel\n
+"     ""          "Dm\n
+"     "Ne-am da mâinile\n
+"     ""                     "Bb\n
+"     "Şi-am fi cu-adevarat cu toții frați.\n\n
+</string>
+
+    <string name="imn23_title">23. ( 28 ) Pe crucea din dealul iubirii</string>
+    <string name="imn23_stroke_1">
+1 Pe crucea din dealul iubirii\n
+   Pe culmea lipsită de flori,\n
+   Se stinge făclia iubirii,\n
+   Privind spre albastrele zări.\n\n
+</string>
+    <string name="imn23_refren_1">
+\t\tR: //: Te plânge izvorul din vale,\n
+          \t\tȘi raza de soare-n amurg;\n
+          \t\tSe scutură florile-n cale,\n
+          \t\tȘi stelele toate se-ascund ://\n\n
+</string>
+    <string name="imn23_stroke_2">
+2 Ce mulți au aflat în iubire\n
+Izvorul de dulci mângâieri,\n
+Iar astăzi privirea spre culme\n
+Îi cauta și nu-s nicăieri.\n\n
+</string>
+    <string name="imn23_refren_2">
+\t\tR2:    Doar mama aleargă la cruce,\n
+          \t\tPrivește spre cer suspinând;\n
+          \t\tÎn locu-i să rabde s-ar duce,\n
+          \t\tPe lemnul de groază murind\n\n
+</string>
+    <string name="imn23_stroke_3">
+3 Iar ochii ce-au plâns în grădină\n
+Se-ndreaptă spre cer rugători,\n
+Spre cel ce durerile-alină,\n
+Se-ndreapta al meu Salvator.\n\n
+</string>
+    <string name="imn23_refren_3">
+\t\tR3:   Părinte-al iubirii sublime,\n
+          \t\tO, iartă-i cumplitul păcat;\n
+          \t\tAl meu duh se-ndreaptă spre tine,\n
+          \t\tO iartă-i căci nu știu ce fac\n\n
+</string>
+    <string name="imn23_acorduri_stroke_1">
+"    "D"                                    "G"     "D\n
+1 Pe crucea din dealul iubirii\n
+   "   "A"                                    "D\n
+   Pe culmea lipsită de flori,\n
+   D"                      	      "G"  "D\n
+   Se stinge făclia iubirii,\n
+   "   "A"                  	                  "D\n
+   Privind spre albastrele zări.\n\n
+</string>
+    <string name="imn23_acorduri_refren_1">
+\t\t"          "D"                                  "G"  "D\n
+\t\tR: //: Te plânge izvorul din vale,\n
+          \t\tD"                      	              "A\n
+          \t\tȘi raza de soare-n amurg;\n
+	      \t\t"       "D"                         "G"  "D\n
+          \t\tSe scutură florile-n cale,\n
+ 	      \t\t"         "A"                              "D\n
+          \t\tȘi stelele toate se-ascund ://\n\n
+</string>
+    <string name="imn23_acorduri_stroke_2">
+"    "D"                      	         "G"     "D\n
+2 Ce mulți au aflat în iubire\n
+"   "A"                                    "D\n
+Izvorul de dulci mângâieri,\n
+" "D"                        	        "G"  "D\n
+Iar astăzi privirea spre culme\n
+A"                                    "D\n
+Îi cauta și nu-s nicăieri.\n\n
+</string>
+    <string name="imn23_acorduri_refren_2">
+\t\tR2:    Doar mama aleargă la cruce,\n
+          \t\tPrivește spre cer suspinând;\n
+          \t\tÎn locu-i să rabde s-ar duce,\n
+          \t\tPe lemnul de groază murind\n\n
+</string>
+    <string name="imn23_acorduri_stroke_3">
+"       "D"                  	        "G"  "D\n
+3 Iar ochii ce-au plâns în grădină\n
+"   "A"                                   "D\n
+Se-ndreaptă spre cer rugători,\n
+" "D"                  	            "G"  "D\n
+Spre cel ce durerile-alină,\n
+A"                                    "D\n
+Se-ndreapta al meu Salvator.\n\n
+</string>
+    <string name="imn23_acorduri_refren_3">
+\t\tR3:   Părinte-al iubirii sublime,\n
+          \t\tO, iartă-i cumplitul păcat;\n
+          \t\tAl meu duh se-ndreaptă spre tine,\n
+          \t\tO iartă-i căci nu știu ce fac\n\n
+</string>
+
+    <string name="imn25_title">25. Când îmi plec genunchii Doamne-n fața Ta</string>
+    <string name="imn25_stroke_1">
+1   //: Când îmi plec genunchii Doamne-n fața ta\n
+          Se coboară Duhul Sfânt în viața mea\n
+          Când înalț spre Tine, Doamne, glasul meu\n
+          Ochii îmi deschizi, inima-mi atingi\n
+          Căci tu ești Dumnezeu ://\n\n
+</string>
+    <string name="imn25_refren_1">
+\t\tRef:  Sub aripile Tale voi sta\n
+         \t\tCu mâna întinsă mă vei ridica\n
+         \t\tSub aripile Tale voi sta\n
+         \t\tCu mâna întinsă mă vei înălța\n
+         \t\tSub aripile Tale voi sta\n
+         \t\tCu mâna întinsă mă vei ridica\n
+         \t\tSub aripile Tale voi sta\n
+         \t\tIsuse, în prezența Ta\n\n
+</string>
+    <string name="imn25_stroke_2">
+2  //: Când îmi plec genunchii Doamne-n fața ta\n
+        Se coboară Duhul Sfânt în viața mea\n
+         Când înalț spre Tine, Doamne, glasul meu\n
+          Ochii îmi deschizi, inima-mi atingi\n
+          Căci tu ești Dumnezeu ://\n\n
+</string>
+    <string name="imn25_refren_2">
+\t\tRef 2:  Sub aripile Tale voi sta\n
+            \t\tCu mâna întinsă mă vei ridica\n
+            \t\tSub aripile Tale voi sta\n
+            \t\tCu mâna întinsă mă vei înălța\n
+            \t\tIsuse, în prezența Ta, \n
+            \t\tEu mâinile spre Tine le voi înălța\n
+            \t\tȘi veșnic te voi lauda Isuse, în prezenţa Ta.\n\n
+</string>
+
+    <string name="imn26_title">26. Puțini mai așteaptă</string>
+    <string name="imn26_stroke_1">
+1 Puțini mai așteaptă, tremurând, acea zi\n
+   Numai sfinții se roagă: Oare când va veni?\n
+   Lupte și războaie, atunci se vor sfârși\n
+ Când Isus, printre nori, glorios va veni, glorios va veni.\n\n
+</string>
+    <string name="imn26_refren_1">
+\t\tRef: Mai iubește o clipă\n
+        \t\tMai roaga-te încă un ceas\n
+        \t\tNu stinge Duhul în tine\n
+        \t\tÎncă puțin a rămas\n
+        \t\tMai iartă încă o vreme\n
+        \t\tMai luptă, nu te lăsa\n
+        \t\tCăci vine ziua cea mare\n
+        \t\tCând lângă Domnul vom sta\n\n
+</string>
+    <string name="imn26_stroke_2">
+2 Vor fi semne în soare și în luna vor\n
+   Însă semnul cel mare e când nu ne iubim\n
+   Se-apropie clipa, n-avem timp de pierdut\n
+   “S-alergăm către țintă!” //: Strigă azi Duhul Sfant ://\n\n
+</string>
+    <string name="imn26_refren_2">
+\t\tC: Cu îngerii în fața lui vom sta\n
+     \t\tȘi o cântare nouă, cu toți, noi vom cânta\n
+     \t\tDa, cu îngerii în fața lui vom sta\n
+     \t\tȘi o cântare nouă cu toți îi vom cânta\n
+</string>
+    <string name="imn26_acorduri_stroke_1">
+"     "C"                                                         "Em\n
+1 Puțini mai așteaptă, tremurând, acea zi\n
+   "                            "F"                                    "G\n
+   Numai sfinții se roagă: Oare când va veni?\n
+   "            "C"                                     "Em\n
+   Lupte și războaie, atunci se vor sfârși\n
+ "                                                "Em"        "F"              "G\n
+ Când Isus, printre nori, glorios va veni, glorios va veni.\n\n
+</string>
+    <string name="imn26_acorduri_refren_1">
+\t\t"                                  "C\n
+\t\tRef: Mai iubește o clipă\n
+        \t\t"                                 "Am\n
+        \t\tMai roaga-te încă un ceas\n
+        \t\t"                              "F\n
+        \t\tNu stinge Duhul în tine\n
+        \t\t"                   "G\n
+       \t\tÎncă puțin a rămas\n
+        \t\t"                              "C\n
+        \t\tMai iartă încă o vreme\n
+        \t\t"                          "Am\n
+        \t\tMai luptă, nu te lăsa\n
+        \t\t"                                "F\n
+        \t\tCăci vine ziua cea mare\n
+        \t\t"                                       "G\n
+        \t\tCând lângă Domnul vom sta\n\n
+</string>
+    <string name="imn26_acorduri_stroke_2">
+"    "C"                                                        "Em\n
+2 Vor fi semne în soare și în luna vor fi\n
+   "                            "F"                                   "G\n
+   Însă semnul cel mare e când nu ne iubim\n
+   "             "C"                                   "Em\n
+   Se-apropie clipa, n-avem timp de pierdut\n
+   "                                               "Em"          "F"             "G\n
+   “S-alergăm către țintă!” //: Strigă azi Duhul Sfant ://\n\n
+</string>
+    <string name="imn26_acorduri_refren_2">
+    \t\t"       "C"                                          "Em\n
+	\t\tC: Cu îngerii în fața lui vom sta\n
+     \t\tF"                     "G"              "Em"                 "G\n
+     \t\tȘi o cântare nouă, cu toți, noi vom cânta\n
+     \t\t"                "C"                          "Em\n
+     \t\tDa, cu îngerii în fața lui vom sta\n
+     \t\t"     "F"                   "G"          "F"           "G\n
+     \t\tȘi o cântare nouă cu toți îi vom cânta\n\n
+</string>
+
+    <string name="imn27_title">27. Și dacă florile pe câmp</string>
+    <string name="imn27_stroke_1">
+1 Și dacă florile pe câmp spre cerul Tău se-nalță\n
+   Și dacă pasările-n zbor, s-avem curaj ne-nvață.\n
+   Și dacă soarele pe cer apune și răsare\n
+   Și dacă-ntregul univers ne-arată-a Ta splendoare.\n\n
+</string>
+    <string name="imn27_refren_1">
+\t\tRef: Acum și noi vom ști sa înălțăm Numele Tău,\n
+        \t\tAcum și noi vom ști să lăudăm Numele Tău,\n
+        \t\tAcum și noi vom ști să-ngenunchem la tronul Tău,\n
+        \t\tAcum și noi vom ști ca numai Tu ești Dumnezeu!\n\n
+</string>
+    <string name="imn27_stroke_2">
+2 Și dacă zorile aduc o nouă dimineață\n
+   Și dacă-n adieri de vânt e Duhul Tău de viață\n
+   Și dacă moartea n-a putut puterea să Ți-o lege\n
+   Și dacă toți se vor pleca în fața Ta, Sfânt Rege!\n\n
+</string>
+    <string name="imn27_refren_2">
+\t\tRef 2: //: (Acum și noi vom ști) x3\n
+                \t\tSă Te înălțăm! ://\n
+            \t\t//: Aleluia! Aleluia, Aleluia!\n
+                \t\tNoi Te înălțăm! ://\n\n
+</string>
+
+    <string name="imn29_title">29. Astăzi este șansa ta</string>
+    <string name="imn29_stroke_1">
+1   Tu poți fi un nou născut\n
+     O poți lua de la-nceput\n
+     Măturând al tău trecut\n
+     Dacă Domnul te-a iertat\n
+     Poți începe inc-odat\n
+     Poți porni iar de la start\n
+     De la zero poți pleca\n
+     Domnul nu te va lăsa\n
+     Astăzi este șansa ta\n\n
+</string>
+    <string name="imn29_stroke_2">
+2   Astăzi poți să fii iertat\n
+     Pentru tot ce ai uitat\n
+     Neglijența e păcat\n
+     Dacă-ai ști cat sa zbătut\n
+     Pe Isus cât La durut\n
+     Ca să-ți dea un început\n
+     Deci te poți alinia\n
+     Iar la start și poți pleca\n
+     Cu Isus la dreapta ta\n\n
+</string>
+    <string name="imn29_stroke_3">
+3    Tu poți merge la izvor\n
+      Nu mai bea din alt decor\n
+      Nici un înlocuitor\n
+      Nu mai sta și nu mai bea\n
+      Tot ce lumea vrea să-ți dea\n
+      Inoiește-ți inima\n
+      De la zero poți pleca\n
+      Domnul nu te va lăsa\n
+      Astăzi este șansa ta\n\n
+</string>
+
+    <string name="imn31_title">31. Din El, prin El</string>
+    <string name="imn31_stroke_1">
+//:Din El, prin El și pentru El,\n
+Sunt toate lucrurile ://\n\n
+</string>
+    <string name="imn31_refren">
+\t\tA lui să fie gloria\n
+\t\tA lui să fie gloria\n
+\t\tA lui să fie gloria\n
+\t\tÎn veci de veci Amin.\n\n
+</string>
+    <string name="imn31_stroke_2">
+2 Viață din viața Sa\n
+  La Golgota ne-a dat\n
+  A îndurat El răstignit\n
+  Al lumii-ntregi păcat\n\n
+</string>
+    <string name="imn31_stroke_3">
+3 Din inimă vrem să-i cântăm\n
+   Noi laudă în veci\n
+   Căci El a biruit și e\n
+   Triumfător pe veci\n\n
+</string>
+    <string name="imn31_acorduri_stroke_1">
+"      "Em"             "D"            "C\n
+//:Din El, prin El și pentru El,\n
+"    "Am"        "D"        "Em\n
+Sunt toate lucrurile ://\n\n
+</string>
+    <string name="imn31_acorduri_refren">
+\t\t" "Em"       "Am"      "D\n
+\t\tA lui să fie gloria\n
+\t\t" "G"                 "C\n
+\t\tA lui să fie gloria\n
+\t\t" "Am"                   "D\n
+\t\tA lui să fie gloria\n
+\t\t"                          "Em\n
+\t\tÎn veci de veci Amin.\n\n
+</string>
+    <string name="imn31_acorduri_stroke_2">
+"    "Em"            "D"          "C\n
+2 Viață din viața Sa\n
+  "  "Am"       "D"        "Em\n
+  La Golgota ne-a dat\n
+  "  "Em"            "D"            "C\n
+  A îndurat El răstignit\n
+  "     "Am"       "D"        "Em\n
+  Al lumii-ntregi păcat\n\n
+</string>
+    <string name="imn31_acorduri_stroke_3">
+"      "Em"             "D"            "C\n
+3 Din inimă vrem să-i cântăm\n
+   " "Am"        "D"       "Em\n
+   Noi laudă în veci\n
+   " "Em"            "D"        "C\n
+   Căci El a biruit și e\n
+   " "Am"       "D"         "Em\n
+   Triumfător pe veci\n\n
+</string>
+
+    <string name="imn32_title">32. Tu ești creatorul </string>
+    <string name="imn32_stroke_1">
+1. Tu ești Creatorul Universului întreg\n
+Tu ești început și întregire tuturor\n
+Stelele și luna glasul tău îl înțeleg\n
+Marea și Pământul, tot ce are viață\n
+Îți dedică existența lor.\n\n
+</string>
+    <string name="imn32_stroke_2">
+2 Împărat al slavei, Tu luminii ești stăpân\n
+Îngerii Te laudă și oștirile cerești\n
+Vin cu bucurie viața mea să ți-o închin\n
+Vreau să-ți simt prezența să-ți ascult cuvântul\n
+Să te-ascult șoptind că mă iubești.\n\n
+</string>
+    <string name="imn32_refren">
+\t\tRef: Toate le-ai creat\n
+\t\tPe toate  mâna Ta le ține\n
+\t\tToate-mi spun ca Tu ești Dumnezeu\n
+\t\tAi trimis suflarea Ta\n
+\t\tȘi viața peste mine\n
+\t\tȘi mai mult de tot ce ești\n
+\t\tTu ești Tatăl meu.\n\n
+</string>
+    <string name="imn32_acorduri_stroke_1">
+"   "D"           "A"        "G"              "D\n
+1. Tu ești Creatorul Universului întreg\n
+G"           "D"          "C"        "A\n
+Tu ești început și întregire tuturor\n
+D"            "A"           "G"           "Bm\n
+Stelele și luna glasul tău îl înțeleg\n
+Em"           "G"         "Em"             "G\n
+Marea și Pământul, tot ce are viață\n
+Em"           "G"        "D"      "A\n
+Îți dedică existența lor.\n\n
+</string>
+    <string name="imn32_acorduri_stroke_2">
+"     "D"             "A"       "G"             "D\n
+2 Împărat al slavei, Tu luminii ești stăpân\n
+"  "G"           "D"           "C"        "A\n
+Îngerii Te laudă și oștirile cerești\n
+"  "D"             "A"          "G"           "Bm\n
+Vin cu bucurie viața mea să ți-o închin\n
+"  "Em"          "G"         "Em"             "G\n
+Vreau să-ți simt prezența să-ți ascult cuvântul\n
+" "Em"           "G"         "D"      "A\n
+Să te-ascult șoptind că mă iubești.\n\n
+</string>
+    <string name="imn32_acorduri_refren">
+\t\t"           "D"           "A\n
+\t\tRef: Toate le-ai creat\n
+\t\t"            "G"          "D\n
+\t\tPe toate  mâna Ta le ține\n
+\t\tG"                 "A"            "D"              "A\n
+\t\tToate-mi spun ca Tu ești Dumnezeu\n
+\t\tD"            "A\n
+\t\tAi trimis suflarea Ta\n
+\t\t"  "G"            "D\n
+\t\tȘi viața peste mine\n
+\t\tG"                 "A\n
+\t\tȘi mai mult de tot ce ești\n
+\t\tG"           "A"     "D\n
+\t\tTu ești Tatăl meu.\n\n
+</string>
+
+    <string name="imn33_title">33. Îți dau inima mea </string>
+    <string name="imn33_stroke_1">
+1.Îți dau inima mea și tot ce am aduc\n
+Acum-naintea Ta, de dragul Tău Isus\n
+Tot ce eu visez, mandria mea ți-o dau\n\n
+</string>
+    <string name="imn33_stroke_2">
+2 Îți dau cântecul meu, aștept la crucea Ta\n
+   Renunț la ce-i lumesc căci pe Tine Te doresc\n
+  Să Te cunosc mai mult, să înalț Numele Tău\n
+  Să știu bucuria Ta, chiar și-atunci când-mi este greu.\n\n
+</string>
+    <string name="imn33_refren">
+\t\tȘi ție îți dau\n
+\t\tTot ce sunt, tot ce am x2\n\n
+</string>
+    <string name="imn33_acorduri_stroke_1">
+"    	       "G"          "D/F#"               "C\n
+1.Îți dau inima mea și tot ce am aduc\n
+"            "Em"             "D/F#"  "G\n
+Acum-naintea Ta, de dragul Tău Isus\n
+G"           "D/F#"                  "C\n
+Tot ce eu visez, mandria mea ți-o dau\n
+"                           "Em"      "D/F#"        "G\n
+Renunț la dreptul meu, ca viața Ta s-o am\n\n
+</string>
+    <string name="imn33_acorduri_stroke_2">
+"     "G"          "D/F#"              "C\n
+2 Îți dau cântecul meu, aștept la crucea Ta\n
+   Em"            "D/F#"  "G\n
+   Renunț la ce-i lumesc căci pe Tine Te doresc\n
+  "  "G"                   "D/F#"                   "C\n
+  Să Te cunosc mai mult, să înalț Numele Tău\n
+  "                                          "Em"      "D/F#"        "G\n
+  Să știu bucuria Ta, chiar și-atunci când-mi este greu.\n\n
+</string>
+    <string name="imn33_acorduri_refren">
+\t\t"  "Em"  "D/F#"  "G\n
+\t\tȘi ție îți dau\n
+\t\tC"      "G"    "Em"     "D\n
+\t\tTot ce sunt, tot ce am x2\n\n
+</string>
+
+    <string name="imn34_title">34. Sfânt ești Doamne, mă închin ție</string>
+    <string name="imn34_stroke_1">
+Sfânt ești Doamne, mă închin Ție\n
+Domn și Împărat.\n
+Aleluia, Tu vii în curand\n
+Și faci lucruri noi.\n\n
+</string>
+    <string name="imn34_refren_1">
+     \t\tRef: Emanuel, Isus Hristos\n
+      \t\tTu nu mă vei lăsa.\n
+      \t\tPăstorul meu, asupra mea veghezi, Emanuel.\n\n
+</string>
+    <string name="imn34_stroke_2">
+Mare ești Tu, numești stelele,\n
+Si ele strălucesc.\n
+Sfânt ești Doamne, vreau să Te urmez\n
+Pe nume m-ai chemat.\n\n
+</string>
+    <string name="imn34_refren_2">
+\t\tSfânt ești Doamne, Atotputernic\n
+\t\tNimeni nu-i ca Tin. X2\n\n
+</string>
+    <string name="imn34_acorduri_stroke_1">
+" "G"                  "Em"           "C\n
+Sfânt ești Doamne, mă închin Ție\n
+"       "Em"   "D\n
+Domn și Împărat.\n
+G"       "Em"          "C\n
+Aleluia, Tu vii în curand\n
+"        "Em"      "D\n
+Și faci lucruri noi.\n\n
+</string>
+    <string name="imn34_acorduri_refren_1">
+\t\t"          "Am"        "D"     "G\n
+     \t\tRef: Emanuel, Isus Hristos\n
+      \t\tC"               "D\n
+      \t\tTu nu mă vei lăsa.\n
+     \t\tAm"            "D"       "G"     "C"       "D"   "Em\n
+      \t\tPăstorul meu, asupra mea veghezi, Emanuel.\n\n
+</string>
+    <string name="imn34_acorduri_stroke_2">
+" "G"             "Em"             "C\n
+Mare ești Tu, numești stelele,\n
+"       "Em"     "D\n
+Si ele strălucesc.\n
+G"                  "Em"              "C\n
+Sfânt ești Doamne, vreau să Te urmez\n
+"        "Em"       "D\n
+Pe nume m-ai chemat.\n\n
+</string>
+    <string name="imn34_acorduri_refren_2">
+\t\tD"          "G"        "D"    "C\n
+\t\tSfânt ești Doamne, Atotputernic\n
+\t\tD"      "G"       "D\n
+\t\tNimeni nu-i ca Tin. X2\n\n
+</string>
+</resources>

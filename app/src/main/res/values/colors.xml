@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="apasat">#40000000</color>
+    <color name="apasat_contur">#70000000</color>
+    <color name="press">#C9154A08</color>
+    <color name="deafult_toolbar">#0d693d</color>
+    <color name="deafult_background_main">#C2F8CE</color>
+    <color name="deafult_options_window">#19a975</color>
+    <color name="deafult_text_title_color">#ffffff</color>
+    <color name="deafult_txt">#000000</color>
+    <color name="deafult_audio_buttons">#366D46</color>
+    <color name="deafult_rest_buttons">#66CC83</color>
+    <color name="deafult_background_for_audio_not_exist">#ffff0000</color>
+    <color name="deafult_icons_right_window_options">#000000</color>
+    <color name="bakground_for_list_color_selector_spiner">#40000000</color>
+</resources>
