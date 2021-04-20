@@ -5,6 +5,8 @@
     <string name="toolbar_settings_text">Setări</string>
     <string name="toolbar_hystory_text">Istoric</string>
 
+    <string name="imn_erorr">Error 404</string>
+    <string name="imn_error_acorduri_activated">Error 405</string>
     <string name="imn_acorduri_indisponibile">Ne pare rău, acordurile pentru această cântare nu sunt disponibile</string>
 
     <string name="imn1_title">1. Doamne vin și-ngenunchez</string>
@@ -2034,5 +2036,87 @@ Pe nume m-ai chemat.\n\n
 \t\tSfânt ești Doamne, Atotputernic\n
 \t\tD"      "G"       "D\n
 \t\tNimeni nu-i ca Tin. X2\n\n
+</string>
+
+    <string name="imn36_title">17. E mult prea scumpă viața asta</string>
+    <string name="imn36_stroke_1">
+E mult prea scumpă viața asta\n
+Ca s-o petreci nepăsător\n
+\t\t//: E mult prea scumpă orice clipa\n
+\t\t"    "S-o laşi să treacă fără spor ://\n\n
+</string>
+    <string name="imn36_stroke_2">
+E mult prea scump cuvântul vieţii\n
+Să-l poți uita şi-un ceas măcar\n
+\t\t//: E mult prea scumpă rugăciunea\n
+\t\t"    "S-o poţi nesocoti vreun har ://\n\n
+</string>
+    <string name="imn36_stroke_3">
+E mult prea scumpă adunarea\n
+Să nu faci totul pentru ea\n
+\t\t//: E mult prea scumpă-mbrăţişarea\n
+\t\t"    "Să-ți pară vreo iertare grea ://\n\n
+</string>
+    <string name="imn36_stroke_4">
+E mult prea scumpă răsplătirea\n
+Statorniciei la sfârșit\n
+\t\t//: Să-ți par-acum prea grea-ncercarea\n
+\t\t"    "Pe care-o ai de suferit ://\n\n
+</string>
+    <string name="imn36_stroke_5">
+E mult prea scumpă mântuirea\n
+Să nu-i dai totul pe pământ\n
+        \t\t//: şi pacea inimii și slava\n
+\t\t"    "Statornicului legământ ://\n\n
+</string>
+    <string name="imn36_acorduri_stroke_1">
+" "G"                          "Am\n
+E mult prea scumpă viața asta\n
+"   "D"                 "G\n
+Ca s-o petreci nepăsător\n
+\t\t"                               "Am\n
+\t\t//: E mult prea scumpă orice clipa\n
+\t\t"     "D"                    "G\n
+\t\t"    "S-o laşi să treacă fără spor ://\n\n
+</string>
+    <string name="imn36_acorduri_stroke_2">
+" "G"                                  "Am\n
+E mult prea scump cuvântul vieţii\n
+"    "D"              "G\n
+Să-l poți uita şi-un ceas măcar\n
+\t\t"                                    "Am\n
+\t\t//: E mult prea scumpă rugăciunea\n
+\t\t"     "D"                      "G\n
+\t\t"    "S-o poţi nesocoti vreun har ://\n\n
+</string>
+    <string name="imn36_acorduri_stroke_3">
+" "G"                               "Am\n
+E mult prea scumpă adunarea\n
+"    "D"                  "G\n
+Să nu faci totul pentru ea\n
+\t\t"                                        "Am\n
+\t\t//: E mult prea scumpă-mbrăţişarea\n
+\t\t"         "D"                    "G\n
+\t\t"    "Să-ți pară vreo iertare grea ://\n\n
+</string>
+    <string name="imn36_acorduri_stroke_4">
+" "G"                                  "Am\n
+E mult prea scumpă răsplătirea\n
+" "D"                 "G\n
+Statorniciei la sfârșit\n
+\t\t"                                         "Am\n
+\t\t//: Să-ți par-acum prea grea-ncercarea\n
+\t\t"        "D"                  "G\n
+\t\t"    "Pe care-o ai de suferit ://\n\n
+</string>
+    <string name="imn36_acorduri_stroke_5">
+G"                                "Am\n
+E mult prea scumpă mântuirea\n
+"    "D"                "G\n
+Să nu-i dai totul pe pământ\n
+\t\t"                      "Am\n
+\t\t//: Și pacea inimii și slava\n
+\t\t"      "D"                    "G\n
+\t\t"    "Statornicului legământ ://\n\n
 </string>
 </resources>

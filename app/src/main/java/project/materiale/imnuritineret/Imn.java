@@ -148,14 +148,17 @@ public class Imn extends AppCompatActivity {
             txt_right3.setTextColor(txt_items_from_options_window);
             textView.setTextColor(imns_txt);
 
-
+        refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
         seekValue=PrefConfig.load_saved_progress(this);
+        imn=getString(R.string.imn_erorr);
+        imn_acorduri=getString(R.string.imn_error_acorduri_activated);
+        o=1;
+        c=1;
         final int imn_number=getIntent().getExtras().getInt("imn_number");
         if(imn_number==1) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn1);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
             imn=getString(R.string.imn1_stroke_1)+getString(R.string.imn1_refren_1)
                     +getString(R.string.imn1_stroke_2)+getString(R.string.imn1_refren_2);
@@ -166,25 +169,12 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn1_stroke_2)+getString(R.string.imn1_refren_2);
                 imn_acorduri=getString(R.string.imn1_acorduri_stroke_1)+getString(R.string.imn1_acorduri_refren_1)
                         +getString(R.string.imn1_acorduri_stroke_2)+getString(R.string.imn1_acorduri_refren_2);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn1_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==2) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn2);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn2_stroke_1)+getString(R.string.imn2_refren_1)
                         +getString(R.string.imn2_stroke_2)+getString(R.string.imn2_refren_2);
@@ -195,25 +185,12 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn2_stroke_2)+getString(R.string.imn2_refren_2);
                 imn_acorduri=getString(R.string.imn2_acorduri_stroke_1)+getString(R.string.imn2_acorduri_refren_1)
                         +getString(R.string.imn2_acorduri_stroke_2)+getString(R.string.imn2_acorduri_refren_2);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn2_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==3) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn3);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn3_stroke_1)+getString(R.string.imn3_refren)
                         +getString(R.string.imn3_stroke_2)+getString(R.string.imn3_refren)+getString(R.string.imn3_stroke_3)
@@ -226,24 +203,11 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn3_stroke_2)+getString(R.string.imn3_stroke_3);
                 imn_acorduri=getString(R.string.imn3_acorduri_stroke_1)+getString(R.string.imn3_acorduri_refren)
                         +getString(R.string.imn3_acorduri_stroke_2)+getString(R.string.imn3_acorduri_stroke_3);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn3_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==4) {
             o=1;
             c=1;
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn4_stroke_1)+getString(R.string.imn4_stroke_2)
                         +getString(R.string.imn4_stroke_3)+getString(R.string.imn4_stroke_4);
@@ -254,24 +218,11 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn4_stroke_3)+getString(R.string.imn4_stroke_4);
                 imn_acorduri=getString(R.string.imn4_acorduri_stroke_1)+getString(R.string.imn4_acorduri_stroke_2)
                         +getString(R.string.imn4_acorduri_stroke_3)+getString(R.string.imn4_acorduri_stroke_4);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn4_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==5) {
             o=1;
             c=1;
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn5_stroke_1)+getString(R.string.imn5_stroke_2)
                         +getString(R.string.imn5_refren)+getString(R.string.imn5_stroke_3)+getString(R.string.imn5_stroke_4)
@@ -288,25 +239,12 @@ public class Imn extends AppCompatActivity {
                 imn_acorduri=getString(R.string.imn5_acorduri_stroke_1)+getString(R.string.imn5_acorduri_stroke_2)
                         +getString(R.string.imn5_acorduri_refren)+getString(R.string.imn5_acorduri_stroke_3)+getString(R.string.imn5_acorduri_stroke_4)
                         +getString(R.string.imn5_acorduri_stroke_5)+getString(R.string.imn5_acorduri_stroke_6);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn5_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==6) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn6);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn6_stroke_1)+getString(R.string.imn6_stroke_2)
                         +getString(R.string.imn6_stroke_3);
@@ -317,25 +255,12 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn6_stroke_3);
                 imn_acorduri=getString(R.string.imn6_acorduri_stroke_1)+getString(R.string.imn6_acorduri_stroke_2)
                         +getString(R.string.imn6_acorduri_stroke_3);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn6_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==7) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn7);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn7_stroke_1)+getString(R.string.imn7_stroke_2)
                         +getString(R.string.imn7_stroke_3)+getString(R.string.imn7_stroke_4);
@@ -346,99 +271,47 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn7_stroke_3)+getString(R.string.imn7_stroke_4);
                 imn_acorduri=getString(R.string.imn7_acorduri_stroke_1)+getString(R.string.imn7_acorduri_stroke_2)
                         +getString(R.string.imn7_acorduri_stroke_3)+getString(R.string.imn7_acorduri_stroke_4);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn7_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==8) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn8);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn8_stroke_1)+getString(R.string.imn8_refren);
                 imn_acorduri=getString(R.string.imn8_acorduri_stroke_1)+getString(R.string.imn8_acorduri_refren);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn8_stroke_1)+getString(R.string.imn8_refren);
                 imn_acorduri=getString(R.string.imn8_acorduri_stroke_1)+getString(R.string.imn8_acorduri_refren);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn8_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==9) {
             o=1;
             c=1;
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn9_stroke_1)+getString(R.string.imn9_refren)+getString(R.string.imn9_stroke_2)+getString(R.string.imn9_refren);
                 imn_acorduri=getString(R.string.imn9_acorduri_stroke_1)+getString(R.string.imn9_acorduri_refren)+getString(R.string.imn9_acorduri_stroke_2)+getString(R.string.imn9_acorduri_refren);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn9_stroke_1)+getString(R.string.imn9_refren)+getString(R.string.imn9_stroke_2);
                 imn_acorduri=getString(R.string.imn9_acorduri_stroke_1)+getString(R.string.imn9_acorduri_refren)+getString(R.string.imn9_acorduri_stroke_2);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn9_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==10) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn10);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn10_stroke_1)+getString(R.string.imn10_refren)+getString(R.string.imn10_stroke_2)+getString(R.string.imn10_refren);
                 imn_acorduri=getString(R.string.imn10_acorduri_stroke_1)+getString(R.string.imn10_acorduri_refren)+getString(R.string.imn10_acorduri_stroke_2)+getString(R.string.imn10_acorduri_refren);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn10_stroke_1)+getString(R.string.imn10_refren)+getString(R.string.imn10_stroke_2);
                 imn_acorduri=getString(R.string.imn10_acorduri_stroke_1)+getString(R.string.imn10_acorduri_refren)+getString(R.string.imn10_acorduri_stroke_2);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn10_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==11) {
             o=0;
             c=1;
-            mediaPlayer=MediaPlayer.create(this,R.raw.imn11);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn35);
             if (refren_stroke==1){
                 imn=getString(R.string.imn11_refren)+getString(R.string.imn11_stroke_1)+getString(R.string.imn11_refren)
                         +getString(R.string.imn11_stroke_2)+getString(R.string.imn11_refren)+getString(R.string.imn11_stroke_3)
@@ -451,25 +324,12 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn11_stroke_2)+getString(R.string.imn11_stroke_3);
                 imn_acorduri=getString(R.string.imn11_acorduri_refren)+getString(R.string.imn11_acorduri_stroke_1)
                         +getString(R.string.imn11_acorduri_stroke_2)+getString(R.string.imn11_acorduri_stroke_3);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn11_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==12) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn12);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn12_stroke_1)+getString(R.string.imn12_refren)
                         +getString(R.string.imn12_stroke_2)+getString(R.string.imn12_refren)+getString(R.string.imn12_stroke_3)
@@ -482,50 +342,24 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn12_stroke_2)+getString(R.string.imn12_stroke_3);
                 imn_acorduri=getString(R.string.imn12_acorduri_stroke_1)+getString(R.string.imn12_acorduri_refren)
                         +getString(R.string.imn12_acorduri_stroke_2)+getString(R.string.imn12_acorduri_stroke_3);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn12_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==13) {
             o=0;
             c=1;
-            mediaPlayer=MediaPlayer.create(this,R.raw.imn13);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn24);
             if (refren_stroke==1){
                 imn=getString(R.string.imn13_stroke_1)+getString(R.string.imn13_refren)+getString(R.string.imn13_stroke_2)+getString(R.string.imn13_refren);
                 imn_acorduri=getString(R.string.imn13_acorduri_stroke_1)+getString(R.string.imn13_acorduri_refren)+getString(R.string.imn13_acorduri_stroke_2)+getString(R.string.imn13_acorduri_refren);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn13_stroke_1)+getString(R.string.imn13_refren)+getString(R.string.imn13_stroke_2);
                 imn_acorduri=getString(R.string.imn13_acorduri_stroke_1)+getString(R.string.imn13_acorduri_refren)+getString(R.string.imn13_acorduri_stroke_2);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn13_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==14) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn14);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn14_stroke_1)+getString(R.string.imn14_refren_1)
                         +getString(R.string.imn14_stroke_2)+getString(R.string.imn14_refren_2);
@@ -536,24 +370,11 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn14_stroke_2)+getString(R.string.imn14_refren_2);
                 imn_acorduri=getString(R.string.imn14_acorduri_stroke_1)+getString(R.string.imn14_acorduri_refren_1)
                         +getString(R.string.imn14_acorduri_stroke_2)+getString(R.string.imn14_acorduri_refren_2);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn14_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==15) {
             o=1;
             c=1;
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn15_stroke_1)+getString(R.string.imn15_stroke_2)
                         +getString(R.string.imn15_stroke_3)+getString(R.string.imn15_stroke_4)
@@ -564,25 +385,12 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn15_stroke_3)+getString(R.string.imn15_stroke_4)
                         +getString(R.string.imn15_stroke_5);
                 imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn15_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==16) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn16);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn16_stroke_1)+getString(R.string.imn16_refren)
                         +getString(R.string.imn16_stroke_2)+getString(R.string.imn16_refren)+getString(R.string.imn16_stroke_3)
@@ -595,25 +403,12 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn16_stroke_2)+getString(R.string.imn16_stroke_3);
                 imn_acorduri=getString(R.string.imn16_acorduri_stroke_1)+getString(R.string.imn16_acorduri_refren)
                         +getString(R.string.imn16_acorduri_stroke_2)+getString(R.string.imn16_acorduri_stroke_3);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn16_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==17) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn17);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn17_stroke_1)+getString(R.string.imn17_stroke_2)
                         +getString(R.string.imn17_stroke_3)+getString(R.string.imn17_stroke_4)
@@ -628,50 +423,24 @@ public class Imn extends AppCompatActivity {
                 imn_acorduri=getString(R.string.imn17_acorduri_stroke_1)+getString(R.string.imn17_acorduri_stroke_2)
                         +getString(R.string.imn17_acorduri_stroke_3)+getString(R.string.imn17_acorduri_stroke_4)
                         +getString(R.string.imn17_acorduri_stroke_5)+getString(R.string.imn17_acorduri_stroke_6);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn17_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==18) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn18);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn18_stroke_1)+getString(R.string.imn18_refren)+getString(R.string.imn18_stroke_2)+getString(R.string.imn18_refren);
                 imn_acorduri=getString(R.string.imn18_acorduri_stroke_1)+getString(R.string.imn18_acorduri_refren)+getString(R.string.imn18_acorduri_stroke_2)+getString(R.string.imn18_acorduri_refren);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn18_stroke_1)+getString(R.string.imn18_refren)+getString(R.string.imn18_stroke_2);
                 imn_acorduri=getString(R.string.imn18_acorduri_stroke_1)+getString(R.string.imn18_acorduri_refren)+getString(R.string.imn18_acorduri_stroke_2);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn18_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==19) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn19);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn19_stroke_1)+getString(R.string.imn19_refren_1)
                         +getString(R.string.imn19_stroke_2)+getString(R.string.imn19_refren_1)+getString(R.string.imn19_stroke_3)
@@ -681,25 +450,12 @@ public class Imn extends AppCompatActivity {
                 imn=getString(R.string.imn19_stroke_1)+getString(R.string.imn19_refren_1)
                         +getString(R.string.imn19_stroke_2)+getString(R.string.imn19_stroke_3)+getString(R.string.imn19_refren_2);
                 imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn19_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==20) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn20);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn20_stroke_1)+getString(R.string.imn20_refren_1)
                         +getString(R.string.imn20_stroke_2)+getString(R.string.imn20_refren_2)
@@ -714,25 +470,12 @@ public class Imn extends AppCompatActivity {
                 imn_acorduri=getString(R.string.imn20_acorduri_stroke_1)+getString(R.string.imn20_acorduri_refren_1)
                         +getString(R.string.imn20_acorduri_stroke_2)+getString(R.string.imn20_acorduri_refren_2)
                         +getString(R.string.imn20_acorduri_stroke_3)+getString(R.string.imn20_acorduri_refren_3);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn20_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==21) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn21);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn21_stroke_1)+getString(R.string.imn21_refren)
                         +getString(R.string.imn21_stroke_2)+getString(R.string.imn21_refren)+getString(R.string.imn21_stroke_3)
@@ -742,25 +485,12 @@ public class Imn extends AppCompatActivity {
                 imn=getString(R.string.imn21_stroke_1)+getString(R.string.imn21_refren)
                         +getString(R.string.imn21_stroke_2)+getString(R.string.imn21_stroke_3)+getString(R.string.imn21_stroke_4);
                 imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn21_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==22) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn22);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn22_stroke_1)+getString(R.string.imn22_refren)
                         +getString(R.string.imn22_stroke_2)+getString(R.string.imn22_refren)+getString(R.string.imn22_stroke_3)
@@ -773,25 +503,12 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn22_stroke_2)+getString(R.string.imn22_stroke_3);
                 imn_acorduri=getString(R.string.imn22_acorduri_refren)+getString(R.string.imn22_acorduri_stroke_1)
                         +getString(R.string.imn22_acorduri_stroke_2)+getString(R.string.imn22_acorduri_stroke_3);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn22_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==23) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn23);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn23_stroke_1)+getString(R.string.imn23_refren_1)
                         +getString(R.string.imn23_stroke_2)+getString(R.string.imn23_refren_2)
@@ -806,25 +523,12 @@ public class Imn extends AppCompatActivity {
                 imn_acorduri=getString(R.string.imn23_acorduri_stroke_1)+getString(R.string.imn23_acorduri_refren_1)
                         +getString(R.string.imn23_acorduri_stroke_2)+getString(R.string.imn23_acorduri_refren_2)
                         +getString(R.string.imn23_acorduri_stroke_3)+getString(R.string.imn23_acorduri_refren_3);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn23_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==25-1) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn25);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn25_stroke_1)+getString(R.string.imn25_refren_1)
                         +getString(R.string.imn25_stroke_2)+getString(R.string.imn25_refren_2);
@@ -833,25 +537,12 @@ public class Imn extends AppCompatActivity {
                 imn=getString(R.string.imn25_stroke_1)+getString(R.string.imn25_refren_1)
                         +getString(R.string.imn25_stroke_2)+getString(R.string.imn25_refren_2);
                 imn_acorduri=imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn25_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==26-1) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn26);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn26_stroke_1)+getString(R.string.imn26_refren_1)
                         +getString(R.string.imn26_stroke_2)+getString(R.string.imn26_refren_2);
@@ -862,25 +553,12 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn26_stroke_2)+getString(R.string.imn26_refren_2);
                 imn_acorduri=getString(R.string.imn26_acorduri_stroke_1)+getString(R.string.imn26_acorduri_refren_1)
                         +getString(R.string.imn26_acorduri_stroke_2)+getString(R.string.imn26_acorduri_refren_2);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn26_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==27-1) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn27);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn27_stroke_1)+getString(R.string.imn27_refren_1)
                         +getString(R.string.imn27_stroke_2)+getString(R.string.imn27_refren_2);
@@ -889,25 +567,12 @@ public class Imn extends AppCompatActivity {
                 imn=getString(R.string.imn27_stroke_1)+getString(R.string.imn27_refren_1)
                         +getString(R.string.imn27_stroke_2)+getString(R.string.imn27_refren_2);
                 imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn27_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==29-2) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn29);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn29_stroke_1)+getString(R.string.imn29_stroke_2)
                         +getString(R.string.imn29_stroke_3);
@@ -916,25 +581,12 @@ public class Imn extends AppCompatActivity {
                 imn=getString(R.string.imn29_stroke_1)+getString(R.string.imn29_stroke_2)
                         +getString(R.string.imn29_stroke_3);
                 imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn29_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==31-3) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn31);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn31_stroke_1)+getString(R.string.imn31_refren)
                         +getString(R.string.imn31_stroke_2)+getString(R.string.imn31_refren)+getString(R.string.imn31_stroke_3)
@@ -947,75 +599,36 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn31_stroke_2)+getString(R.string.imn31_stroke_3);
                 imn_acorduri=getString(R.string.imn31_acorduri_stroke_1)+getString(R.string.imn31_acorduri_refren)
                         +getString(R.string.imn31_acorduri_stroke_2)+getString(R.string.imn31_acorduri_stroke_3);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn31_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==32-3) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn32);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn32_stroke_1)+getString(R.string.imn32_refren)+getString(R.string.imn32_stroke_2)+getString(R.string.imn32_refren);
                 imn_acorduri=getString(R.string.imn32_acorduri_stroke_1)+getString(R.string.imn32_acorduri_refren)+getString(R.string.imn32_acorduri_stroke_2)+getString(R.string.imn32_acorduri_refren);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn32_stroke_1)+getString(R.string.imn32_refren)+getString(R.string.imn32_stroke_2);
                 imn_acorduri=getString(R.string.imn32_acorduri_stroke_1)+getString(R.string.imn32_acorduri_refren)+getString(R.string.imn32_acorduri_stroke_2);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn32_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==33-3) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn33);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn33_stroke_1)+getString(R.string.imn33_refren)+getString(R.string.imn33_stroke_2)+getString(R.string.imn33_refren);
                 imn_acorduri=getString(R.string.imn33_acorduri_stroke_1)+getString(R.string.imn33_acorduri_refren)+getString(R.string.imn33_acorduri_stroke_2)+getString(R.string.imn33_acorduri_refren);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn33_stroke_1)+getString(R.string.imn33_refren)+getString(R.string.imn33_stroke_2);
                 imn_acorduri=getString(R.string.imn33_acorduri_stroke_1)+getString(R.string.imn33_acorduri_refren)+getString(R.string.imn33_acorduri_stroke_2);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn33_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
         if(imn_number==34-3) {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn34);
-            refren_stroke=PrefConfig.load_saved_refren_stroke_data(this);
             if (refren_stroke==1){
                 imn=getString(R.string.imn34_stroke_1)+getString(R.string.imn34_refren_1)
                         +getString(R.string.imn34_stroke_2)+getString(R.string.imn34_refren_2)+getString(R.string.imn34_refren_1);
@@ -1026,22 +639,22 @@ public class Imn extends AppCompatActivity {
                         +getString(R.string.imn34_stroke_2)+getString(R.string.imn34_refren_2);
                 imn_acorduri=getString(R.string.imn34_acorduri_stroke_1)+getString(R.string.imn34_acorduri_refren_1)
                         +getString(R.string.imn34_acorduri_stroke_2)+getString(R.string.imn34_acorduri_refren_2);}
-            textView.setText(imn);
             title_text.setText(getString(R.string.imn34_title));
-            switchCompat.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if(switchCompat.isChecked()){
-                        textView.setText(imn_acorduri);
-                    }
-                    else{
-                        textView.setText(imn);
-                    }
-                }
-            });
         }
 
 
+        textView.setText(imn);
+        switchCompat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(switchCompat.isChecked()){
+                    textView.setText(imn_acorduri);
+                }
+                else{
+                    textView.setText(imn);
+                }
+            }
+        });
         textView.setTextSize(seekValue);
         seekBar.setProgress(seekValue);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
