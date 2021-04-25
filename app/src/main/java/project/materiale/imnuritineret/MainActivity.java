@@ -137,8 +137,8 @@ public class MainActivity extends AppCompatActivity {
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent intent=new Intent(view.getContext(),Imn.class);
-                    intent.putExtra("imn_number",position+1);
+                    Intent intent = new Intent(view.getContext(), Imn.class);
+                    intent.putExtra("imn_number", position+1);
                     startActivity(intent);
             }
         });

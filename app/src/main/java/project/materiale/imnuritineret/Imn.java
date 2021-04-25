@@ -259,8 +259,9 @@ public class Imn extends AppCompatActivity {
         }
         if(imn_number==7) {
             o=0;
-            c=1;
+            c=0;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn7);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_7);
             if (refren_stroke==1){
                 imn=getString(R.string.imn7_stroke_1)+getString(R.string.imn7_stroke_2)
                         +getString(R.string.imn7_stroke_3)+getString(R.string.imn7_stroke_4);
@@ -389,8 +390,9 @@ public class Imn extends AppCompatActivity {
         }
         if(imn_number==16) {
             o=0;
-            c=1;
+            c=0;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn16);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_16);
             if (refren_stroke==1){
                 imn=getString(R.string.imn16_stroke_1)+getString(R.string.imn16_refren)
                         +getString(R.string.imn16_stroke_2)+getString(R.string.imn16_refren)+getString(R.string.imn16_stroke_3)
@@ -491,6 +493,7 @@ public class Imn extends AppCompatActivity {
             o=0;
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn22);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_22);
             if (refren_stroke==1){
                 imn=getString(R.string.imn22_stroke_1)+getString(R.string.imn22_refren)
                         +getString(R.string.imn22_stroke_2)+getString(R.string.imn22_refren)+getString(R.string.imn22_stroke_3)
@@ -640,6 +643,949 @@ public class Imn extends AppCompatActivity {
                 imn_acorduri=getString(R.string.imn34_acorduri_stroke_1)+getString(R.string.imn34_acorduri_refren_1)
                         +getString(R.string.imn34_acorduri_stroke_2)+getString(R.string.imn34_acorduri_refren_2);}
             title_text.setText(getString(R.string.imn34_title));
+        }
+        if(imn_number==36-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn36);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn36_stroke_1)+getString(R.string.imn36_stroke_2)
+                        +getString(R.string.imn36_stroke_3)+getString(R.string.imn36_stroke_4)
+                        +getString(R.string.imn36_stroke_5);
+                imn_acorduri=getString(R.string.imn36_acorduri_stroke_1)+getString(R.string.imn36_acorduri_stroke_2)
+                        +getString(R.string.imn36_acorduri_stroke_3)+getString(R.string.imn36_acorduri_stroke_4)
+                        +getString(R.string.imn36_acorduri_stroke_5);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn36_stroke_1)+getString(R.string.imn36_stroke_2)
+                        +getString(R.string.imn36_stroke_3)+getString(R.string.imn36_stroke_4)
+                        +getString(R.string.imn36_stroke_5);
+                imn_acorduri=getString(R.string.imn36_acorduri_stroke_1)+getString(R.string.imn36_acorduri_stroke_2)
+                        +getString(R.string.imn36_acorduri_stroke_3)+getString(R.string.imn36_acorduri_stroke_4)
+                        +getString(R.string.imn36_acorduri_stroke_5);}
+            title_text.setText(getString(R.string.imn36_title));
+        }
+        if(imn_number==37-4) {
+            o=1;
+            c=1;
+            if (refren_stroke==1){
+                imn=getString(R.string.imn37_stroke_1)+getString(R.string.imn37_refren)+getString(R.string.imn37_stroke_2)
+                        +getString(R.string.imn37_refren);
+                imn_acorduri=getString(R.string.imn37_acorduri_stroke_1)+getString(R.string.imn37_acorduri_refren)
+                        +getString(R.string.imn37_acorduri_stroke_2)+getString(R.string.imn37_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn37_stroke_1)+getString(R.string.imn37_refren)+getString(R.string.imn37_stroke_2);
+                imn_acorduri=getString(R.string.imn37_acorduri_stroke_1)+getString(R.string.imn37_acorduri_refren)+getString(R.string.imn37_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn37_title));
+        }
+        if(imn_number==38-4) {
+            o=1;
+            c=1;
+            if (refren_stroke==1){
+                imn=getString(R.string.imn38_stroke_1)+getString(R.string.imn38_stroke_2)
+                        +getString(R.string.imn38_stroke_3)+getString(R.string.imn38_stroke_4);
+                imn_acorduri=getString(R.string.imn38_acorduri_stroke_1)+getString(R.string.imn38_acorduri_stroke_2)
+                        +getString(R.string.imn38_acorduri_stroke_3)+getString(R.string.imn38_acorduri_stroke_4);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn38_stroke_1)+getString(R.string.imn38_stroke_2)
+                        +getString(R.string.imn38_stroke_3)+getString(R.string.imn38_stroke_4);
+                imn_acorduri=getString(R.string.imn38_acorduri_stroke_1)+getString(R.string.imn38_acorduri_stroke_2)
+                        +getString(R.string.imn38_acorduri_stroke_3)+getString(R.string.imn38_acorduri_stroke_4);}
+            title_text.setText(getString(R.string.imn38_title));
+        }
+        if(imn_number==39-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn39);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_39);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn39_stroke_1)+getString(R.string.imn39_refren);
+                imn_acorduri=getString(R.string.imn39_acorduri_stroke_1)+getString(R.string.imn39_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn39_stroke_1)+getString(R.string.imn39_refren);
+                imn_acorduri=getString(R.string.imn39_acorduri_stroke_1)+getString(R.string.imn39_acorduri_refren);}
+            title_text.setText(getString(R.string.imn39_title));
+        }
+        if(imn_number==40-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn40);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn40_stroke_1)+getString(R.string.imn40_refren)+getString(R.string.imn40_stroke_2)
+                        +getString(R.string.imn40_refren);
+                imn_acorduri=getString(R.string.imn40_acorduri_stroke_1)+getString(R.string.imn40_acorduri_refren)
+                        +getString(R.string.imn40_acorduri_stroke_2)+getString(R.string.imn40_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn40_stroke_1)+getString(R.string.imn40_refren)+getString(R.string.imn40_stroke_2);
+                imn_acorduri=getString(R.string.imn40_acorduri_stroke_1)+getString(R.string.imn40_acorduri_refren)+getString(R.string.imn40_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn40_title));
+        }
+        if(imn_number==41-4) {
+            o=1;
+            c=1;
+            if (refren_stroke==1){
+                imn=getString(R.string.imn41_stroke_1)+getString(R.string.imn41_refren)+getString(R.string.imn41_stroke_2)
+                        +getString(R.string.imn41_refren);
+                imn_acorduri=getString(R.string.imn41_acorduri_stroke_1)+getString(R.string.imn41_acorduri_refren)
+                        +getString(R.string.imn41_acorduri_stroke_2)+getString(R.string.imn41_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn41_stroke_1)+getString(R.string.imn41_refren)+getString(R.string.imn41_stroke_2);
+                imn_acorduri=getString(R.string.imn41_acorduri_stroke_1)+getString(R.string.imn41_acorduri_refren)
+                        +getString(R.string.imn41_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn41_title));
+        }
+        if(imn_number==42-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn42);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn42_stroke_1)+getString(R.string.imn42_refren)+getString(R.string.imn42_stroke_2)
+                        +getString(R.string.imn42_refren);
+                imn_acorduri=getString(R.string.imn42_acorduri_stroke_1)+getString(R.string.imn42_acorduri_refren)
+                        +getString(R.string.imn42_acorduri_stroke_2)+getString(R.string.imn42_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn42_stroke_1)+getString(R.string.imn42_refren)+getString(R.string.imn42_stroke_2);
+                imn_acorduri=getString(R.string.imn42_acorduri_stroke_1)+getString(R.string.imn42_acorduri_refren)
+                        +getString(R.string.imn42_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn42_title));
+        }
+        if(imn_number==43-4) {
+            o=0;
+            c=0;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn43);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_43);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn43_stroke_1)+getString(R.string.imn43_stroke_2)
+                        +getString(R.string.imn43_stroke_3);
+                imn_acorduri=getString(R.string.imn43_acorduri_stroke_1)+getString(R.string.imn43_acorduri_stroke_2)
+                        +getString(R.string.imn43_acorduri_stroke_3);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn43_stroke_1)+getString(R.string.imn43_stroke_2)
+                        +getString(R.string.imn43_stroke_3);
+                imn_acorduri=getString(R.string.imn43_acorduri_stroke_1)+getString(R.string.imn43_acorduri_stroke_2)
+                        +getString(R.string.imn43_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn43_title));
+        }
+        if(imn_number==44-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn44);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn44_stroke_1)+getString(R.string.imn44_stroke_2)
+                        +getString(R.string.imn44_stroke_3);
+                imn_acorduri=getString(R.string.imn44_acorduri_stroke_1)+getString(R.string.imn44_acorduri_stroke_2)
+                        +getString(R.string.imn44_acorduri_stroke_3);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn44_stroke_1)+getString(R.string.imn44_stroke_2)
+                        +getString(R.string.imn44_stroke_3);
+                imn_acorduri=getString(R.string.imn44_acorduri_stroke_1)+getString(R.string.imn44_acorduri_stroke_2)
+                        +getString(R.string.imn44_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn44_title));
+        }
+        if(imn_number==45-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn45);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn45_stroke_1)+getString(R.string.imn45_acorduri_refren)
+                        +getString(R.string.imn45_stroke_2)+getString(R.string.imn45_refren)+getString(R.string.imn45_stroke_3)
+                        +getString(R.string.imn45_refren)+getString(R.string.imn45_stroke_4)+getString(R.string.imn45_refren);
+                imn_acorduri=getString(R.string.imn45_acorduri_stroke_1)+getString(R.string.imn45_acorduri_refren)
+                        +getString(R.string.imn45_acorduri_stroke_2)+getString(R.string.imn45_acorduri_refren)+getString(R.string.imn45_acorduri_stroke_3)
+                        +getString(R.string.imn45_acorduri_refren)+getString(R.string.imn45_acorduri_stroke_4)+getString(R.string.imn45_acorduri_refren);
+                }
+            if (refren_stroke==0){
+                imn=getString(R.string.imn45_stroke_1)+getString(R.string.imn45_refren)
+                        +getString(R.string.imn45_stroke_2)+getString(R.string.imn45_stroke_3)+getString(R.string.imn45_stroke_4);
+                imn_acorduri=getString(R.string.imn45_acorduri_stroke_1)+getString(R.string.imn45_acorduri_refren)
+                        +getString(R.string.imn45_acorduri_stroke_2)+getString(R.string.imn45_acorduri_stroke_3)+getString(R.string.imn45_acorduri_stroke_4);}
+            title_text.setText(getString(R.string.imn45_title));
+        }
+        if(imn_number==46-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn46);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn46_stroke_1)+getString(R.string.imn46_refren_1)
+                        +getString(R.string.imn46_stroke_2)+getString(R.string.imn46_refren_1)+getString(R.string.imn46_stroke_3)
+                        +getString(R.string.imn46_refren_2);
+                imn_acorduri=getString(R.string.imn34_acorduri_stroke_1)+getString(R.string.imn34_acorduri_refren_1)
+                        +getString(R.string.imn34_acorduri_stroke_2)+getString(R.string.imn34_acorduri_refren_1)+getString(R.string.imn46_acorduri_stroke_3)
+                        +getString(R.string.imn46_acorduri_refren_2);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn34_stroke_1)+getString(R.string.imn34_refren_1)
+                        +getString(R.string.imn34_stroke_2)+getString(R.string.imn46_stroke_3)+getString(R.string.imn34_refren_2);
+                imn_acorduri=getString(R.string.imn34_acorduri_stroke_1)+getString(R.string.imn34_acorduri_refren_1)
+                        +getString(R.string.imn34_acorduri_stroke_2)+getString(R.string.imn46_acorduri_stroke_3)
+                        +getString(R.string.imn46_acorduri_refren_2);}
+            title_text.setText(getString(R.string.imn46_title));
+        }
+        if(imn_number==47-4) {
+            o=1;
+            c=1;
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_47);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn47_stroke_1)+getString(R.string.imn47_refren)
+                        +getString(R.string.imn47_stroke_2)+getString(R.string.imn47_refren)+getString(R.string.imn47_stroke_3)
+                        +getString(R.string.imn47_refren);
+                imn_acorduri=getString(R.string.imn47_acorduri_stroke_1)+getString(R.string.imn47_acorduri_refren)
+                        +getString(R.string.imn47_acorduri_stroke_2)+getString(R.string.imn47_acorduri_refren)
+                        +getString(R.string.imn47_acorduri_stroke_3) +getString(R.string.imn47_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn47_stroke_1)+getString(R.string.imn47_refren)
+                        +getString(R.string.imn47_stroke_2)+getString(R.string.imn47_stroke_3);
+                imn_acorduri=getString(R.string.imn47_acorduri_stroke_1)+getString(R.string.imn47_acorduri_refren)
+                        +getString(R.string.imn47_acorduri_stroke_2)+getString(R.string.imn47_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn47_title));
+        }
+        if(imn_number==48-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn48);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn48_stroke_1)+getString(R.string.imn48_stroke_2)
+                        +getString(R.string.imn48_stroke_3);
+                imn_acorduri=getString(R.string.imn48_acorduri_stroke_1)+getString(R.string.imn48_acorduri_stroke_2)
+                        +getString(R.string.imn48_acorduri_stroke_3);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn48_stroke_1)+getString(R.string.imn48_stroke_2)
+                        +getString(R.string.imn48_stroke_3);
+                imn_acorduri=getString(R.string.imn48_acorduri_stroke_1)+getString(R.string.imn48_acorduri_stroke_2)
+                        +getString(R.string.imn48_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn48_title));
+        }
+        if(imn_number==49-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn49);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn49_stroke_1)+getString(R.string.imn49_refren)
+                        +getString(R.string.imn49_stroke_2)+getString(R.string.imn49_refren)+getString(R.string.imn49_stroke_3)
+                        +getString(R.string.imn49_refren);
+                imn_acorduri=getString(R.string.imn49_acorduri_stroke_1)+getString(R.string.imn49_acorduri_refren)
+                        +getString(R.string.imn49_acorduri_stroke_2)+getString(R.string.imn49_acorduri_refren)
+                        +getString(R.string.imn49_acorduri_stroke_3) +getString(R.string.imn49_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn49_stroke_1)+getString(R.string.imn49_refren)
+                        +getString(R.string.imn49_stroke_2)+getString(R.string.imn49_stroke_3);
+                imn_acorduri=getString(R.string.imn49_acorduri_stroke_1)+getString(R.string.imn49_acorduri_refren)
+                        +getString(R.string.imn49_acorduri_stroke_2)+getString(R.string.imn49_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn49_title));
+        }
+        if(imn_number==50-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn50);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn50_refren)+getString(R.string.imn50_stroke_1)+getString(R.string.imn50_refren)
+                        +getString(R.string.imn50_stroke_2)+getString(R.string.imn50_refren)+getString(R.string.imn50_stroke_3)
+                        +getString(R.string.imn50_refren);
+                imn_acorduri=getString(R.string.imn50_acorduri_refren)+getString(R.string.imn31_acorduri_stroke_1)+getString(R.string.imn31_acorduri_refren)
+                        +getString(R.string.imn50_acorduri_stroke_2)+getString(R.string.imn50_acorduri_refren)
+                        +getString(R.string.imn50_acorduri_stroke_3)+getString(R.string.imn50_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn50_refren)+getString(R.string.imn50_stroke_1)
+                        +getString(R.string.imn50_stroke_2)+getString(R.string.imn50_stroke_3);
+                imn_acorduri=getString(R.string.imn50_acorduri_refren)+getString(R.string.imn31_acorduri_stroke_1)
+                        +getString(R.string.imn50_acorduri_stroke_2)+getString(R.string.imn50_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn50_title));
+        }
+        if(imn_number==51-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn51);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn51_stroke_1)+getString(R.string.imn51_refren)
+                        +getString(R.string.imn51_stroke_2)+getString(R.string.imn51_refren)+getString(R.string.imn51_stroke_3)
+                        +getString(R.string.imn51_refren);
+                imn_acorduri=getString(R.string.imn51_acorduri_stroke_1)+getString(R.string.imn51_acorduri_refren)
+                        +getString(R.string.imn51_acorduri_stroke_2)+getString(R.string.imn51_acorduri_refren)
+                        +getString(R.string.imn51_acorduri_stroke_3) +getString(R.string.imn51_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn51_stroke_1)+getString(R.string.imn51_refren)
+                        +getString(R.string.imn51_stroke_2)+getString(R.string.imn51_stroke_3);
+                imn_acorduri=getString(R.string.imn51_acorduri_stroke_1)+getString(R.string.imn51_acorduri_refren)
+                        +getString(R.string.imn51_acorduri_stroke_2)+getString(R.string.imn51_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn51_title));
+        }
+        if(imn_number==52-4) {
+            o=0;
+            c=1;
+            if (refren_stroke==1){
+                imn=getString(R.string.imn52_stroke_1)+getString(R.string.imn52_refren)
+                        +getString(R.string.imn52_stroke_2)+getString(R.string.imn52_refren)+getString(R.string.imn52_stroke_3)
+                        +getString(R.string.imn52_refren);
+                imn_acorduri=getString(R.string.imn52_acorduri_stroke_1)+getString(R.string.imn52_acorduri_refren)
+                        +getString(R.string.imn52_acorduri_stroke_2)+getString(R.string.imn52_acorduri_refren)
+                        +getString(R.string.imn52_acorduri_stroke_3) +getString(R.string.imn52_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn52_stroke_1)+getString(R.string.imn52_refren)
+                        +getString(R.string.imn52_stroke_2)+getString(R.string.imn52_stroke_3);
+                imn_acorduri=getString(R.string.imn52_acorduri_stroke_1)+getString(R.string.imn52_acorduri_refren)
+                        +getString(R.string.imn52_acorduri_stroke_2)+getString(R.string.imn52_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn52_title));
+        }
+        if(imn_number==53-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn53);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn53_stroke_1)+getString(R.string.imn53_acorduri_refren)
+                        +getString(R.string.imn53_stroke_2)+getString(R.string.imn53_refren)+getString(R.string.imn53_stroke_3)
+                        +getString(R.string.imn53_refren)+getString(R.string.imn53_stroke_4)+getString(R.string.imn53_refren);
+                imn_acorduri=getString(R.string.imn53_acorduri_stroke_1)+getString(R.string.imn53_acorduri_refren)
+                        +getString(R.string.imn53_acorduri_stroke_2)+getString(R.string.imn53_acorduri_refren)+getString(R.string.imn53_acorduri_stroke_3)
+                        +getString(R.string.imn53_acorduri_refren)+getString(R.string.imn53_acorduri_stroke_4)+getString(R.string.imn53_acorduri_refren);
+            }
+            if (refren_stroke==0){
+                imn=getString(R.string.imn53_stroke_1)+getString(R.string.imn53_refren)
+                        +getString(R.string.imn53_stroke_2)+getString(R.string.imn53_stroke_3)+getString(R.string.imn53_stroke_4);
+                imn_acorduri=getString(R.string.imn53_acorduri_stroke_1)+getString(R.string.imn53_acorduri_refren)
+                        +getString(R.string.imn53_acorduri_stroke_2)+getString(R.string.imn53_acorduri_stroke_3)+getString(R.string.imn53_acorduri_stroke_4);}
+            title_text.setText(getString(R.string.imn53_title));
+        }
+        if(imn_number==54-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn54);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn54_stroke_1)+getString(R.string.imn54_acorduri_refren)
+                        +getString(R.string.imn54_stroke_2)+getString(R.string.imn54_refren)+getString(R.string.imn54_stroke_3)
+                        +getString(R.string.imn54_refren)+getString(R.string.imn54_stroke_4)+getString(R.string.imn54_refren);
+                imn_acorduri=getString(R.string.imn54_acorduri_stroke_1)+getString(R.string.imn54_acorduri_refren)
+                        +getString(R.string.imn54_acorduri_stroke_2)+getString(R.string.imn54_acorduri_refren)+getString(R.string.imn54_acorduri_stroke_3)
+                        +getString(R.string.imn54_acorduri_refren)+getString(R.string.imn54_acorduri_stroke_4)+getString(R.string.imn54_acorduri_refren);
+            }
+            if (refren_stroke==0){
+                imn=getString(R.string.imn54_stroke_1)+getString(R.string.imn54_refren)
+                        +getString(R.string.imn54_stroke_2)+getString(R.string.imn54_stroke_3)+getString(R.string.imn54_stroke_4);
+                imn_acorduri=getString(R.string.imn54_acorduri_stroke_1)+getString(R.string.imn54_acorduri_refren)
+                        +getString(R.string.imn54_acorduri_stroke_2)+getString(R.string.imn54_acorduri_stroke_3)+getString(R.string.imn54_acorduri_stroke_4);}
+            title_text.setText(getString(R.string.imn54_title));
+        }
+        if(imn_number==55-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn55);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn55_stroke_1)+getString(R.string.imn55_refren)
+                        +getString(R.string.imn55_stroke_2)+getString(R.string.imn55_refren)+getString(R.string.imn55_stroke_3)
+                        +getString(R.string.imn55_refren);
+                imn_acorduri=getString(R.string.imn55_acorduri_stroke_1)+getString(R.string.imn55_acorduri_refren)
+                        +getString(R.string.imn55_acorduri_stroke_2)+getString(R.string.imn55_acorduri_refren)
+                        +getString(R.string.imn55_acorduri_stroke_3) +getString(R.string.imn55_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn55_stroke_1)+getString(R.string.imn55_refren)
+                        +getString(R.string.imn55_stroke_2)+getString(R.string.imn55_stroke_3);
+                imn_acorduri=getString(R.string.imn55_acorduri_stroke_1)+getString(R.string.imn55_acorduri_refren)
+                        +getString(R.string.imn55_acorduri_stroke_2)+getString(R.string.imn55_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn55_title));
+        }
+        if(imn_number==56-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn56);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_56);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn56_stroke_1)+getString(R.string.imn56_stroke_2)+getString(R.string.imn56_refren_1)
+                        +getString(R.string.imn56_stroke_3)+getString(R.string.imn56_stroke_4)
+                        +getString(R.string.imn56_refren_2);
+                imn_acorduri=getString(R.string.imn56_acorduri_stroke_1)+getString(R.string.imn56_acorduri_stroke_2)+getString(R.string.imn56_acorduri_refren_1)
+                        +getString(R.string.imn56_acorduri_stroke_3)+getString(R.string.imn56_acorduri_stroke_4)
+                        +getString(R.string.imn56_acorduri_refren_2);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn56_stroke_1)+getString(R.string.imn56_stroke_2)+getString(R.string.imn56_refren_1)
+                        +getString(R.string.imn56_stroke_3)+getString(R.string.imn56_stroke_4)
+                        +getString(R.string.imn56_refren_2);
+                imn_acorduri=getString(R.string.imn56_acorduri_stroke_1)+getString(R.string.imn56_acorduri_stroke_2)+getString(R.string.imn56_acorduri_refren_1)
+                        +getString(R.string.imn56_acorduri_stroke_3)+getString(R.string.imn56_acorduri_stroke_4)
+                        +getString(R.string.imn56_acorduri_refren_2);}
+            title_text.setText(getString(R.string.imn56_title));
+        }
+        if(imn_number==57-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn57);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_57);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn57_stroke_1)+getString(R.string.imn57_refren_1)
+                        +getString(R.string.imn57_stroke_2)+getString(R.string.imn57_refren_1)+getString(R.string.imn57_stroke_3)
+                        +getString(R.string.imn57_refren_2)+getString(R.string.imn57_refren_1);
+                imn_acorduri=getString(R.string.imn57_acorduri_stroke_1)+getString(R.string.imn57_acorduri_refren_1)
+                        +getString(R.string.imn57_acorduri_stroke_2)+getString(R.string.imn57_acorduri_refren_1)+getString(R.string.imn57_acorduri_stroke_3)
+                        +getString(R.string.imn57_acorduri_refren_2)+getString(R.string.imn57_acorduri_refren_1);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn57_stroke_1)+getString(R.string.imn57_refren_1)
+                        +getString(R.string.imn57_stroke_2)+getString(R.string.imn57_stroke_3)
+                        +getString(R.string.imn57_refren_2);
+                imn_acorduri=getString(R.string.imn57_acorduri_stroke_1)+getString(R.string.imn57_acorduri_refren_1)
+                        +getString(R.string.imn57_acorduri_stroke_2)+getString(R.string.imn57_acorduri_stroke_3)
+                        +getString(R.string.imn57_acorduri_refren_2);}
+            title_text.setText(getString(R.string.imn57_title));
+        }
+        if(imn_number==58-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn58);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn58_stroke_1)+getString(R.string.imn58_refren)+getString(R.string.imn58_stroke_2)
+                        +getString(R.string.imn58_refren);
+                imn_acorduri=getString(R.string.imn58_acorduri_stroke_1)+getString(R.string.imn58_acorduri_refren)
+                        +getString(R.string.imn58_acorduri_stroke_2)+getString(R.string.imn58_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn58_stroke_1)+getString(R.string.imn58_refren)+getString(R.string.imn58_stroke_2);
+                imn_acorduri=getString(R.string.imn58_acorduri_stroke_1)+getString(R.string.imn58_acorduri_refren)
+                        +getString(R.string.imn58_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn58_title));
+        }
+        if(imn_number==59-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn59);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn59_stroke_1)+getString(R.string.imn59_refren_1)
+                        +getString(R.string.imn59_stroke_2)+getString(R.string.imn59_refren_2)+getString(R.string.imn59_refren_1);
+                imn_acorduri=getString(R.string.imn59_acorduri_stroke_1)+getString(R.string.imn59_acorduri_refren_1)
+                        +getString(R.string.imn59_acorduri_stroke_2)+getString(R.string.imn59_acorduri_refren_2)
+                        +getString(R.string.imn59_acorduri_refren_1);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn59_stroke_1)+getString(R.string.imn59_refren_1)
+                        +getString(R.string.imn59_stroke_2)+getString(R.string.imn59_refren_2);
+                imn_acorduri=getString(R.string.imn59_acorduri_stroke_1)+getString(R.string.imn59_acorduri_refren_1)
+                        +getString(R.string.imn59_acorduri_stroke_2)+getString(R.string.imn59_acorduri_refren_2);}
+            title_text.setText(getString(R.string.imn59_title));
+        }
+        if(imn_number==60-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn60);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn60_stroke_1)+getString(R.string.imn60_refren)+getString(R.string.imn60_stroke_2)
+                        +getString(R.string.imn60_refren);
+                imn_acorduri=getString(R.string.imn60_acorduri_stroke_1)+getString(R.string.imn60_acorduri_refren)
+                        +getString(R.string.imn60_acorduri_stroke_2)+getString(R.string.imn60_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn60_stroke_1)+getString(R.string.imn60_refren)+getString(R.string.imn60_stroke_2);
+                imn_acorduri=getString(R.string.imn60_acorduri_stroke_1)+getString(R.string.imn60_acorduri_refren)
+                        +getString(R.string.imn60_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn60_title));
+        }
+        if(imn_number==61-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn61);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn61_stroke_1)+getString(R.string.imn61_refren_1)
+                        +getString(R.string.imn61_stroke_2)+getString(R.string.imn61_refren_2)
+                        +getString(R.string.imn61_stroke_3)+getString(R.string.imn61_refren_3);
+                imn_acorduri=getString(R.string.imn61_acorduri_stroke_1)+getString(R.string.imn61_acorduri_refren_1)
+                        +getString(R.string.imn61_acorduri_stroke_2)+getString(R.string.imn61_acorduri_refren_2)
+                        +getString(R.string.imn61_acorduri_stroke_3)+getString(R.string.imn61_acorduri_refren_3);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn61_stroke_1)+getString(R.string.imn61_refren_1)
+                        +getString(R.string.imn61_stroke_2)+getString(R.string.imn61_refren_2)
+                        +getString(R.string.imn61_stroke_3)+getString(R.string.imn61_refren_3);
+                imn_acorduri=getString(R.string.imn61_acorduri_stroke_1)+getString(R.string.imn61_acorduri_refren_1)
+                        +getString(R.string.imn61_acorduri_stroke_2)+getString(R.string.imn61_acorduri_refren_2)
+                        +getString(R.string.imn61_acorduri_stroke_3)+getString(R.string.imn61_acorduri_refren_3);}
+            title_text.setText(getString(R.string.imn61_title));
+        }
+        if(imn_number==62-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn62);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn62_stroke_1)+getString(R.string.imn62_stroke_2)
+                        +getString(R.string.imn62_stroke_3);
+                imn_acorduri=getString(R.string.imn62_acorduri_stroke_1)+getString(R.string.imn62_acorduri_stroke_2)
+                        +getString(R.string.imn62_acorduri_stroke_3);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn62_stroke_1)+getString(R.string.imn62_stroke_2)
+                        +getString(R.string.imn62_stroke_3);
+                imn_acorduri=getString(R.string.imn62_acorduri_stroke_1)+getString(R.string.imn62_acorduri_stroke_2)
+                        +getString(R.string.imn62_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn62_title));
+        }
+        if(imn_number==63-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn63);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn63_stroke_1)+getString(R.string.imn63_refren);
+                imn_acorduri=getString(R.string.imn63_acorduri_stroke_1)+getString(R.string.imn63_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn63_stroke_1)+getString(R.string.imn63_refren);
+                imn_acorduri=getString(R.string.imn63_acorduri_stroke_1)+getString(R.string.imn63_acorduri_refren);}
+            title_text.setText(getString(R.string.imn63_title));
+        }
+        if(imn_number==64-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn64);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn64_stroke_1)+getString(R.string.imn64_refren_1)
+                        +getString(R.string.imn64_stroke_2)+getString(R.string.imn64_refren_2)
+                        +getString(R.string.imn64_stroke_3)+getString(R.string.imn64_refren_3);
+                imn_acorduri=getString(R.string.imn64_acorduri_stroke_1)+getString(R.string.imn64_acorduri_refren_1)
+                        +getString(R.string.imn64_acorduri_stroke_2)+getString(R.string.imn64_acorduri_refren_2)
+                        +getString(R.string.imn64_acorduri_stroke_3)+getString(R.string.imn64_acorduri_refren_3);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn64_stroke_1)+getString(R.string.imn64_refren_1)
+                        +getString(R.string.imn64_stroke_2)+getString(R.string.imn64_refren_2)
+                        +getString(R.string.imn64_stroke_3)+getString(R.string.imn64_refren_3);
+                imn_acorduri=getString(R.string.imn64_acorduri_stroke_1)+getString(R.string.imn64_acorduri_refren_1)
+                        +getString(R.string.imn64_acorduri_stroke_2)+getString(R.string.imn64_acorduri_refren_2)
+                        +getString(R.string.imn64_acorduri_stroke_3)+getString(R.string.imn64_acorduri_refren_3);}
+            title_text.setText(getString(R.string.imn64_title));
+        }
+        if(imn_number==65-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn65);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn65_stroke_1)+getString(R.string.imn65_refren)+getString(R.string.imn65_stroke_2)
+                        +getString(R.string.imn65_refren);
+                imn_acorduri=getString(R.string.imn65_acorduri_stroke_1)+getString(R.string.imn65_acorduri_refren)
+                        +getString(R.string.imn65_acorduri_stroke_2)+getString(R.string.imn65_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn65_stroke_1)+getString(R.string.imn65_refren)+getString(R.string.imn65_stroke_2);
+                imn_acorduri=getString(R.string.imn65_acorduri_stroke_1)+getString(R.string.imn65_acorduri_refren)
+                        +getString(R.string.imn65_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn65_title));
+        }
+        if(imn_number==66-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn66);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn66_stroke_1)+getString(R.string.imn66_refren)
+                        +getString(R.string.imn66_stroke_2)+getString(R.string.imn66_refren)+getString(R.string.imn66_stroke_3)
+                        +getString(R.string.imn66_refren);
+                imn_acorduri=getString(R.string.imn66_acorduri_stroke_1)+getString(R.string.imn66_acorduri_refren)
+                        +getString(R.string.imn66_acorduri_stroke_2)+getString(R.string.imn66_acorduri_refren)
+                        +getString(R.string.imn66_acorduri_stroke_3) +getString(R.string.imn66_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn66_stroke_1)+getString(R.string.imn66_refren)
+                        +getString(R.string.imn66_stroke_2)+getString(R.string.imn66_stroke_3);
+                imn_acorduri=getString(R.string.imn66_acorduri_stroke_1)+getString(R.string.imn66_acorduri_refren)
+                        +getString(R.string.imn66_acorduri_stroke_2)+getString(R.string.imn66_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn66_title));
+        }
+        if(imn_number==67-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn67);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn67_stroke_1)+getString(R.string.imn67_refren)+getString(R.string.imn67_stroke_2)
+                        +getString(R.string.imn67_refren);
+                imn_acorduri=getString(R.string.imn67_acorduri_stroke_1)+getString(R.string.imn67_acorduri_refren)
+                        +getString(R.string.imn67_acorduri_stroke_2)+getString(R.string.imn67_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn67_stroke_1)+getString(R.string.imn67_refren)+getString(R.string.imn67_stroke_2);
+                imn_acorduri=getString(R.string.imn67_acorduri_stroke_1)+getString(R.string.imn67_acorduri_refren)
+                        +getString(R.string.imn67_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn67_title));
+        }
+        if(imn_number==68-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn68);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn68_stroke_1)+getString(R.string.imn68_refren)
+                        +getString(R.string.imn68_stroke_2)+getString(R.string.imn68_refren)+getString(R.string.imn68_stroke_3)
+                        +getString(R.string.imn68_refren);
+                imn_acorduri=getString(R.string.imn68_acorduri_stroke_1)+getString(R.string.imn68_acorduri_refren)
+                        +getString(R.string.imn68_acorduri_stroke_2)+getString(R.string.imn68_acorduri_refren)
+                        +getString(R.string.imn68_acorduri_stroke_3) +getString(R.string.imn68_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn68_stroke_1)+getString(R.string.imn68_refren)
+                        +getString(R.string.imn68_stroke_2)+getString(R.string.imn68_stroke_3);
+                imn_acorduri=getString(R.string.imn68_acorduri_stroke_1)+getString(R.string.imn68_acorduri_refren)
+                        +getString(R.string.imn68_acorduri_stroke_2)+getString(R.string.imn68_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn68_title));
+        }
+        if(imn_number==69-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn69);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn69_stroke_1)+getString(R.string.imn69_stroke_2)
+                        +getString(R.string.imn69_stroke_3);
+                imn_acorduri=getString(R.string.imn69_acorduri_stroke_1)+getString(R.string.imn69_acorduri_stroke_2)
+                        +getString(R.string.imn69_acorduri_stroke_3);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn69_stroke_1)+getString(R.string.imn69_stroke_2)
+                        +getString(R.string.imn69_stroke_3);
+                imn_acorduri=getString(R.string.imn69_acorduri_stroke_1)+getString(R.string.imn69_acorduri_stroke_2)
+                        +getString(R.string.imn69_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn69_title));
+        }
+        if(imn_number==70-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn70);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn70_stroke_1)+getString(R.string.imn70_refren)
+                        +getString(R.string.imn70_stroke_2)+getString(R.string.imn70_refren)+getString(R.string.imn70_stroke_3)
+                        +getString(R.string.imn70_refren);
+                imn_acorduri=getString(R.string.imn70_acorduri_stroke_1)+getString(R.string.imn70_acorduri_refren)
+                        +getString(R.string.imn70_acorduri_stroke_2)+getString(R.string.imn70_acorduri_refren)
+                        +getString(R.string.imn70_acorduri_stroke_3) +getString(R.string.imn70_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn70_stroke_1)+getString(R.string.imn70_refren)
+                        +getString(R.string.imn70_stroke_2)+getString(R.string.imn70_stroke_3);
+                imn_acorduri=getString(R.string.imn70_acorduri_stroke_1)+getString(R.string.imn70_acorduri_refren)
+                        +getString(R.string.imn70_acorduri_stroke_2)+getString(R.string.imn70_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn70_title));
+        }
+        if(imn_number==71-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn71);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_71);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn71_stroke_1)+getString(R.string.imn71_refren)
+                        +getString(R.string.imn71_stroke_2)+getString(R.string.imn71_refren)+getString(R.string.imn71_stroke_3)
+                        +getString(R.string.imn71_refren);
+                imn_acorduri=getString(R.string.imn71_acorduri_stroke_1)+getString(R.string.imn71_acorduri_refren)
+                        +getString(R.string.imn71_acorduri_stroke_2)+getString(R.string.imn71_acorduri_refren)
+                        +getString(R.string.imn71_acorduri_stroke_3) +getString(R.string.imn71_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn71_stroke_1)+getString(R.string.imn71_refren)
+                        +getString(R.string.imn71_stroke_2)+getString(R.string.imn71_stroke_3);
+                imn_acorduri=getString(R.string.imn71_acorduri_stroke_1)+getString(R.string.imn71_acorduri_refren)
+                        +getString(R.string.imn71_acorduri_stroke_2)+getString(R.string.imn71_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn71_title));
+        }
+        if(imn_number==72-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn72);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn72_stroke_1)+getString(R.string.imn72_refren)
+                        +getString(R.string.imn72_stroke_2)+getString(R.string.imn72_refren)+getString(R.string.imn72_stroke_3)
+                        +getString(R.string.imn72_refren);
+                imn_acorduri=getString(R.string.imn72_acorduri_stroke_1)+getString(R.string.imn72_acorduri_refren)
+                        +getString(R.string.imn72_acorduri_stroke_2)+getString(R.string.imn72_acorduri_refren)
+                        +getString(R.string.imn72_acorduri_stroke_3) +getString(R.string.imn72_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn72_stroke_1)+getString(R.string.imn72_refren)
+                        +getString(R.string.imn72_stroke_2)+getString(R.string.imn72_stroke_3);
+                imn_acorduri=getString(R.string.imn72_acorduri_stroke_1)+getString(R.string.imn72_acorduri_refren)
+                        +getString(R.string.imn72_acorduri_stroke_2)+getString(R.string.imn72_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn72_title));
+        }
+        if(imn_number==73-4) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn73);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn73_stroke_1)+getString(R.string.imn73_stroke_2)
+                        +getString(R.string.imn73_stroke_3);
+                imn_acorduri=getString(R.string.imn73_acorduri_stroke_1)+getString(R.string.imn73_acorduri_stroke_2)
+                        +getString(R.string.imn73_acorduri_stroke_3);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn73_stroke_1)+getString(R.string.imn73_stroke_2)
+                        +getString(R.string.imn73_stroke_3);
+                imn_acorduri=getString(R.string.imn73_acorduri_stroke_1)+getString(R.string.imn73_acorduri_stroke_2)
+                        +getString(R.string.imn73_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn73_title));
+        }
+        if(imn_number==74-4) {
+            o=1;
+            c=1;
+            if (refren_stroke==1){
+                imn=getString(R.string.imn74_stroke_1)+getString(R.string.imn74_stroke_2)
+                        +getString(R.string.imn74_stroke_3)+getString(R.string.imn74_stroke_4)
+                        +getString(R.string.imn74_stroke_5);
+                imn_acorduri=getString(R.string.imn74_acorduri_stroke_1)+getString(R.string.imn74_acorduri_stroke_2)
+                        +getString(R.string.imn74_acorduri_stroke_3)+getString(R.string.imn74_acorduri_stroke_4)
+                        +getString(R.string.imn74_acorduri_stroke_5);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn74_stroke_1)+getString(R.string.imn74_stroke_2)
+                        +getString(R.string.imn74_stroke_3)+getString(R.string.imn74_stroke_4)
+                        +getString(R.string.imn74_stroke_5);
+                imn_acorduri=getString(R.string.imn74_acorduri_stroke_1)+getString(R.string.imn74_acorduri_stroke_2)
+                        +getString(R.string.imn74_acorduri_stroke_3)+getString(R.string.imn74_acorduri_stroke_4)
+                        +getString(R.string.imn74_acorduri_stroke_5);}
+            title_text.setText(getString(R.string.imn74_title));
+        }
+        if(imn_number==77-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn77);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn77_stroke_1)+getString(R.string.imn77_stroke_2)
+                        +getString(R.string.imn77_stroke_3)+getString(R.string.imn77_stroke_4)
+                        +getString(R.string.imn77_stroke_5)+getString(R.string.imn77_stroke_6)
+                        +getString(R.string.imn77_stroke_7)+getString(R.string.imn77_stroke_8);
+                imn_acorduri=getString(R.string.imn77_acorduri_stroke_1)+getString(R.string.imn77_acorduri_stroke_2)
+                        +getString(R.string.imn77_acorduri_stroke_3)+getString(R.string.imn77_acorduri_stroke_4)
+                        +getString(R.string.imn77_acorduri_stroke_5)+getString(R.string.imn77_acorduri_stroke_6)
+                        +getString(R.string.imn77_acorduri_stroke_7)+getString(R.string.imn77_acorduri_stroke_8);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn77_stroke_1)+getString(R.string.imn77_stroke_2)
+                        +getString(R.string.imn77_stroke_3)+getString(R.string.imn77_stroke_4)
+                        +getString(R.string.imn77_stroke_5)+getString(R.string.imn77_stroke_6)
+                        +getString(R.string.imn77_stroke_7)+getString(R.string.imn77_stroke_8);
+                imn_acorduri=getString(R.string.imn77_acorduri_stroke_1)+getString(R.string.imn77_acorduri_stroke_2)
+                        +getString(R.string.imn77_acorduri_stroke_3)+getString(R.string.imn77_acorduri_stroke_4)
+                        +getString(R.string.imn77_acorduri_stroke_5)+getString(R.string.imn77_acorduri_stroke_6)
+                        +getString(R.string.imn77_acorduri_stroke_7)+getString(R.string.imn77_acorduri_stroke_8);}
+            title_text.setText(getString(R.string.imn77_title));
+        }
+        if(imn_number==78-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn78);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_78);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn78_stroke_1)+getString(R.string.imn78_refren)+getString(R.string.imn78_stroke_2)
+                        +getString(R.string.imn78_refren);
+                imn_acorduri=getString(R.string.imn78_acorduri_stroke_1)+getString(R.string.imn78_acorduri_refren)
+                        +getString(R.string.imn78_acorduri_stroke_2)+getString(R.string.imn78_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn78_stroke_1)+getString(R.string.imn78_refren)+getString(R.string.imn78_stroke_2);
+                imn_acorduri=getString(R.string.imn78_acorduri_stroke_1)+getString(R.string.imn78_acorduri_refren)
+                        +getString(R.string.imn78_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn78_title));
+        }
+        if(imn_number==79-6) {
+            o=1;
+            c=1;
+            if (refren_stroke==1){
+                imn=getString(R.string.imn79_refren)+getString(R.string.imn79_stroke_1)+getString(R.string.imn79_refren)
+                        +getString(R.string.imn79_stroke_2)+getString(R.string.imn79_refren)+getString(R.string.imn79_stroke_3)
+                        +getString(R.string.imn79_refren);
+                imn_acorduri=getString(R.string.imn79_acorduri_refren)+getString(R.string.imn79_acorduri_stroke_1)+getString(R.string.imn79_acorduri_refren)
+                        +getString(R.string.imn79_acorduri_stroke_2)+getString(R.string.imn79_acorduri_refren)
+                        +getString(R.string.imn79_acorduri_stroke_3) +getString(R.string.imn79_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn79_refren)+getString(R.string.imn79_stroke_1)
+                        +getString(R.string.imn79_stroke_2)+getString(R.string.imn79_stroke_3);
+                imn_acorduri=getString(R.string.imn79_acorduri_refren)+getString(R.string.imn79_acorduri_stroke_1)
+                        +getString(R.string.imn79_acorduri_stroke_2)+getString(R.string.imn79_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn79_title));
+        }
+        if(imn_number==80-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn80);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn80_stroke_1)+getString(R.string.imn80_stroke_2);
+                imn_acorduri=getString(R.string.imn80_acorduri_stroke_1)+getString(R.string.imn80_acorduri_stroke_2);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn80_stroke_1)+getString(R.string.imn80_stroke_2);
+                imn_acorduri=getString(R.string.imn80_acorduri_stroke_1)+getString(R.string.imn80_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn80_title));
+        }
+        if(imn_number==81-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn81);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn81_stroke_1)+getString(R.string.imn81_refren)+getString(R.string.imn81_stroke_2)
+                        +getString(R.string.imn81_refren);
+                imn_acorduri=getString(R.string.imn81_acorduri_stroke_1)+getString(R.string.imn81_acorduri_refren)
+                        +getString(R.string.imn81_acorduri_stroke_2)+getString(R.string.imn81_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn81_stroke_1)+getString(R.string.imn81_refren)+getString(R.string.imn81_stroke_2);
+                imn_acorduri=getString(R.string.imn81_acorduri_stroke_1)+getString(R.string.imn81_acorduri_refren)
+                        +getString(R.string.imn81_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn81_title));
+        }
+        if(imn_number==82-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn82);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn82_stroke_1)+getString(R.string.imn82_refren)
+                        +getString(R.string.imn82_stroke_2)+getString(R.string.imn82_refren)+getString(R.string.imn82_stroke_3)
+                        +getString(R.string.imn82_refren);
+                imn_acorduri=getString(R.string.imn82_acorduri_stroke_1)+getString(R.string.imn82_acorduri_refren)
+                        +getString(R.string.imn82_acorduri_stroke_2)+getString(R.string.imn82_acorduri_refren)
+                        +getString(R.string.imn82_acorduri_stroke_3) +getString(R.string.imn82_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn82_stroke_1)+getString(R.string.imn82_refren)
+                        +getString(R.string.imn82_stroke_2)+getString(R.string.imn82_stroke_3);
+                imn_acorduri=getString(R.string.imn82_acorduri_stroke_1)+getString(R.string.imn82_acorduri_refren)
+                        +getString(R.string.imn82_acorduri_stroke_2)+getString(R.string.imn82_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn82_title));
+        }
+        if(imn_number==83-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn83);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_83);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn83_stroke_1)+getString(R.string.imn83_refren)
+                        +getString(R.string.imn83_stroke_2)+getString(R.string.imn83_refren)+getString(R.string.imn83_stroke_3)
+                        +getString(R.string.imn83_refren);
+                imn_acorduri=getString(R.string.imn83_acorduri_stroke_1)+getString(R.string.imn83_acorduri_refren)
+                        +getString(R.string.imn83_acorduri_stroke_2)+getString(R.string.imn83_acorduri_refren)
+                        +getString(R.string.imn83_acorduri_stroke_3) +getString(R.string.imn83_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn83_stroke_1)+getString(R.string.imn83_refren)
+                        +getString(R.string.imn83_stroke_2)+getString(R.string.imn83_stroke_3);
+                imn_acorduri=getString(R.string.imn83_acorduri_stroke_1)+getString(R.string.imn83_acorduri_refren)
+                        +getString(R.string.imn83_acorduri_stroke_2)+getString(R.string.imn83_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn83_title));
+        }
+        if(imn_number==84-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn84);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn84_stroke_1)+getString(R.string.imn84_refren)+getString(R.string.imn84_stroke_2)
+                        +getString(R.string.imn84_refren);
+                imn_acorduri=getString(R.string.imn84_acorduri_stroke_1)+getString(R.string.imn84_acorduri_refren)
+                        +getString(R.string.imn84_acorduri_stroke_2)+getString(R.string.imn84_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn84_stroke_1)+getString(R.string.imn84_refren)+getString(R.string.imn84_stroke_2);
+                imn_acorduri=getString(R.string.imn84_acorduri_stroke_1)+getString(R.string.imn84_acorduri_refren)
+                        +getString(R.string.imn84_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn84_title));
+        }
+        if(imn_number==85-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn85);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_85);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn85_stroke_1)+getString(R.string.imn85_stroke_2)
+                        +getString(R.string.imn85_stroke_3)+getString(R.string.imn85_stroke_4)
+                        +getString(R.string.imn85_stroke_5);
+                imn_acorduri=getString(R.string.imn85_acorduri_stroke_1)+getString(R.string.imn85_acorduri_stroke_2)
+                        +getString(R.string.imn85_acorduri_stroke_3)+getString(R.string.imn85_acorduri_stroke_4)
+                        +getString(R.string.imn85_acorduri_stroke_5);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn85_stroke_1)+getString(R.string.imn85_stroke_2)
+                        +getString(R.string.imn85_stroke_3)+getString(R.string.imn85_stroke_4)
+                        +getString(R.string.imn85_stroke_5);
+                imn_acorduri=getString(R.string.imn85_acorduri_stroke_1)+getString(R.string.imn85_acorduri_stroke_2)
+                        +getString(R.string.imn85_acorduri_stroke_3)+getString(R.string.imn85_acorduri_stroke_4)
+                        +getString(R.string.imn85_acorduri_stroke_5);}
+            title_text.setText(getString(R.string.imn85_title));
+        }
+        if(imn_number==86-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn86);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_86);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn86_stroke_1)+getString(R.string.imn86_stroke_2)
+                        +getString(R.string.imn86_stroke_3)+getString(R.string.imn86_stroke_4)
+                        +getString(R.string.imn86_stroke_5)+getString(R.string.imn86_stroke_6);
+                imn_acorduri=getString(R.string.imn86_acorduri_stroke_1)+getString(R.string.imn86_acorduri_stroke_2)
+                        +getString(R.string.imn86_acorduri_stroke_3)+getString(R.string.imn86_acorduri_stroke_4)
+                        +getString(R.string.imn86_acorduri_stroke_5)+getString(R.string.imn86_acorduri_stroke_6);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn86_stroke_1)+getString(R.string.imn86_stroke_2)
+                        +getString(R.string.imn86_stroke_3)+getString(R.string.imn86_stroke_4)
+                        +getString(R.string.imn86_stroke_5)+getString(R.string.imn86_stroke_6);
+                imn_acorduri=getString(R.string.imn86_acorduri_stroke_1)+getString(R.string.imn86_acorduri_stroke_2)
+                        +getString(R.string.imn86_acorduri_stroke_3)+getString(R.string.imn86_acorduri_stroke_4)
+                        +getString(R.string.imn86_acorduri_stroke_5)+getString(R.string.imn86_acorduri_stroke_6);}
+            title_text.setText(getString(R.string.imn86_title));
+        }
+        if(imn_number==87-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn87);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn87_stroke_1)+getString(R.string.imn87_refren_1)
+                        +getString(R.string.imn87_stroke_2)+getString(R.string.imn87_refren_2);
+                imn_acorduri=getString(R.string.imn87_acorduri_stroke_1)+getString(R.string.imn87_acorduri_refren_1)
+                        +getString(R.string.imn87_acorduri_stroke_2)+getString(R.string.imn87_acorduri_refren_2);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn87_stroke_1)+getString(R.string.imn87_refren_1)
+                        +getString(R.string.imn87_stroke_2)+getString(R.string.imn87_refren_2);
+                imn_acorduri=getString(R.string.imn87_acorduri_stroke_1)+getString(R.string.imn87_acorduri_refren_1)
+                        +getString(R.string.imn87_acorduri_stroke_2)+getString(R.string.imn87_acorduri_refren_2);}
+            title_text.setText(getString(R.string.imn87_title));
+        }
+        if(imn_number==88-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn88);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_88);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn88_stroke_1)+getString(R.string.imn88_refren)
+                        +getString(R.string.imn88_stroke_2)+getString(R.string.imn88_refren)
+                        +getString(R.string.imn88_stroke_3)+getString(R.string.imn88_refren);
+                imn_acorduri=getString(R.string.imn88_acorduri_stroke_1)+getString(R.string.imn88_acorduri_refren)
+                        +getString(R.string.imn88_acorduri_stroke_2)+getString(R.string.imn88_acorduri_refren)
+                        +getString(R.string.imn88_acorduri_stroke_3) +getString(R.string.imn88_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn88_stroke_1)+getString(R.string.imn88_refren)
+                        +getString(R.string.imn88_stroke_2)+getString(R.string.imn88_stroke_3);
+                imn_acorduri=getString(R.string.imn88_acorduri_stroke_1)+getString(R.string.imn88_acorduri_refren)
+                        +getString(R.string.imn88_acorduri_stroke_2)+getString(R.string.imn88_acorduri_stroke_3);}
+            title_text.setText(getString(R.string.imn88_title));
+        }
+        if(imn_number==89-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn89);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_89);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn89_stroke_1)+getString(R.string.imn89_refren_1)
+                        +getString(R.string.imn89_stroke_2)+getString(R.string.imn89_refren_2);
+                imn_acorduri=getString(R.string.imn89_acorduri_stroke_1)+getString(R.string.imn89_acorduri_refren_1)
+                        +getString(R.string.imn89_acorduri_stroke_2)+getString(R.string.imn89_acorduri_refren_2);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn89_stroke_1)+getString(R.string.imn89_refren_1)
+                        +getString(R.string.imn89_stroke_2)+getString(R.string.imn89_refren_2);
+                imn_acorduri=getString(R.string.imn89_acorduri_stroke_1)+getString(R.string.imn89_acorduri_refren_1)
+                        +getString(R.string.imn89_acorduri_stroke_2)+getString(R.string.imn89_acorduri_refren_2);}
+            title_text.setText(getString(R.string.imn89_title));
+        }
+        if(imn_number==90-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn90);
+            mediaPlayer1=MediaPlayer.create(this,R.raw.imn_c_90);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn90_stroke_1)+getString(R.string.imn90_stroke_2)
+                        +getString(R.string.imn90_stroke_3)+getString(R.string.imn90_stroke_4);
+                imn_acorduri=getString(R.string.imn90_acorduri_stroke_1)+getString(R.string.imn90_acorduri_stroke_2)
+                        +getString(R.string.imn90_acorduri_stroke_3)+getString(R.string.imn90_acorduri_stroke_4);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn90_stroke_1)+getString(R.string.imn90_stroke_2)
+                        +getString(R.string.imn90_stroke_3)+getString(R.string.imn90_stroke_4);
+                imn_acorduri=getString(R.string.imn90_acorduri_stroke_1)+getString(R.string.imn90_acorduri_stroke_2)
+                        +getString(R.string.imn90_acorduri_stroke_3)+getString(R.string.imn90_acorduri_stroke_4);}
+            title_text.setText(getString(R.string.imn90_title));
+        }
+        if(imn_number==91-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn91);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn91_stroke_1)+getString(R.string.imn91_stroke_2)
+                        +getString(R.string.imn91_stroke_3)+getString(R.string.imn91_stroke_4);
+                imn_acorduri=getString(R.string.imn91_acorduri_stroke_1)+getString(R.string.imn91_acorduri_stroke_2)
+                        +getString(R.string.imn91_acorduri_stroke_3)+getString(R.string.imn91_acorduri_stroke_4);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn91_stroke_1)+getString(R.string.imn91_stroke_2)
+                        +getString(R.string.imn91_stroke_3)+getString(R.string.imn91_stroke_4);
+                imn_acorduri=getString(R.string.imn91_acorduri_stroke_1)+getString(R.string.imn91_acorduri_stroke_2)
+                        +getString(R.string.imn91_acorduri_stroke_3)+getString(R.string.imn91_acorduri_stroke_4);}
+            title_text.setText(getString(R.string.imn91_title));
+        }
+        if(imn_number==92-6) {
+            o=0;
+            c=1;
+            mediaPlayer=MediaPlayer.create(this,R.raw.imn92);
+            if (refren_stroke==1){
+                imn=getString(R.string.imn92_stroke_1)+getString(R.string.imn92_refren)+getString(R.string.imn92_stroke_2)
+                        +getString(R.string.imn92_refren);
+                imn_acorduri=getString(R.string.imn92_acorduri_stroke_1)+getString(R.string.imn92_acorduri_refren)
+                        +getString(R.string.imn92_acorduri_stroke_2)+getString(R.string.imn92_acorduri_refren);}
+            if (refren_stroke==0){
+                imn=getString(R.string.imn92_stroke_1)+getString(R.string.imn92_refren)+getString(R.string.imn92_stroke_2);
+                imn_acorduri=getString(R.string.imn92_acorduri_stroke_1)+getString(R.string.imn92_acorduri_refren)
+                        +getString(R.string.imn92_acorduri_stroke_2);}
+            title_text.setText(getString(R.string.imn92_title));
         }
 
 
