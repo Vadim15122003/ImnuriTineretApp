@@ -2219,45 +2219,22 @@ Tu ești Dumnezeu\n
 
     <string name="imn41_title">41. Iubiți creștini vă salutăm cu pace</string>
     <string name="imn41_stroke_1">
-1.Îți dau inima mea și tot ce am aduc\n
-Acum-naintea Ta, de dragul Tău Isus\n
-Tot ce eu visez, mandria mea ți-o dau\n\n
+1  Iubiți creștini vă salutăm cu pace\n
+    Veniți la casa Domnului\n
+    Veniți azi Biblia ne-ndeamnă\n
+    Să cercetăm cuvântul Lui\n\n
 </string>
     <string name="imn41_stroke_2">
-2 Îți dau cântecul meu, aștept la crucea Ta\n
-   Renunț la ce-i lumesc căci pe Tine Te doresc\n
-  Să Te cunosc mai mult, să înalț Numele Tău\n
-  Să știu bucuria Ta, chiar și-atunci când-mi este greu.\n\n
+2  Slăvim pe Domnul care ne iubește\n
+    Și ne primește cum suntem\n
+    Cu El dorim pe veci a fi\n
+    Și numele-i a-l preamări.\n\n
 </string>
     <string name="imn41_refren">
-\t\tȘi ție îți dau\n
-\t\tTot ce sunt, tot ce am x2\n\n
-</string>
-    <string name="imn41_acorduri_stroke_1">
-"    	       "G"          "D/F#"               "C\n
-1.Îți dau inima mea și tot ce am aduc\n
-"            "Em"             "D/F#"  "G\n
-Acum-naintea Ta, de dragul Tău Isus\n
-G"           "D/F#"                  "C\n
-Tot ce eu visez, mandria mea ți-o dau\n
-"                           "Em"      "D/F#"        "G\n
-Renunț la dreptul meu, ca viața Ta s-o am\n\n
-</string>
-    <string name="imn41_acorduri_stroke_2">
-"     "G"          "D/F#"              "C\n
-2 Îți dau cântecul meu, aștept la crucea Ta\n
-   Em"            "D/F#"  "G\n
-   Renunț la ce-i lumesc căci pe Tine Te doresc\n
-  "  "G"                   "D/F#"                   "C\n
-  Să Te cunosc mai mult, să înalț Numele Tău\n
-  "                                          "Em"      "D/F#"        "G\n
-  Să știu bucuria Ta, chiar și-atunci când-mi este greu.\n\n
-</string>
-    <string name="imn41_acorduri_refren">
-\t\t"  "Em"  "D/F#"  "G\n
-\t\tȘi ție îți dau\n
-\t\tC"      "G"    "Em"     "D\n
-\t\tTot ce sunt, tot ce am x2\n\n
+\t\tR:  //: Lui slavă, ne adunăm cu toții\n
+         \t\tCuvântul să-l citim și apoi să-l împlinim\n
+         \t\tIubirea lui Isus oricând să o cântăm\n
+         \t\tȘi slavă Domnului să-i dăm ://\n\n
 </string>
 
     <string name="imn42_title">42. Cu Tine prin credință, Domane voi porni</string>
