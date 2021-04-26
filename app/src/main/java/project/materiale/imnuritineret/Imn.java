@@ -652,16 +652,12 @@ public class Imn extends AppCompatActivity {
                 imn=getString(R.string.imn36_stroke_1)+getString(R.string.imn36_stroke_2)
                         +getString(R.string.imn36_stroke_3)+getString(R.string.imn36_stroke_4)
                         +getString(R.string.imn36_stroke_5);
-                imn_acorduri=getString(R.string.imn36_acorduri_stroke_1)+getString(R.string.imn36_acorduri_stroke_2)
-                        +getString(R.string.imn36_acorduri_stroke_3)+getString(R.string.imn36_acorduri_stroke_4)
-                        +getString(R.string.imn36_acorduri_stroke_5);}
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn36_stroke_1)+getString(R.string.imn36_stroke_2)
                         +getString(R.string.imn36_stroke_3)+getString(R.string.imn36_stroke_4)
                         +getString(R.string.imn36_stroke_5);
-                imn_acorduri=getString(R.string.imn36_acorduri_stroke_1)+getString(R.string.imn36_acorduri_stroke_2)
-                        +getString(R.string.imn36_acorduri_stroke_3)+getString(R.string.imn36_acorduri_stroke_4)
-                        +getString(R.string.imn36_acorduri_stroke_5);}
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
             title_text.setText(getString(R.string.imn36_title));
         }
         if(imn_number==37-4) {
@@ -670,12 +666,10 @@ public class Imn extends AppCompatActivity {
             if (refren_stroke==1){
                 imn=getString(R.string.imn37_stroke_1)+getString(R.string.imn37_refren)+getString(R.string.imn37_stroke_2)
                         +getString(R.string.imn37_refren);
-                imn_acorduri=getString(R.string.imn37_acorduri_stroke_1)+getString(R.string.imn37_acorduri_refren)
-                        +getString(R.string.imn37_acorduri_stroke_2)+getString(R.string.imn37_acorduri_refren);}
+                imn_acorduri=getString(R.string.imn+acorduri_indisponibile);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn37_stroke_1)+getString(R.string.imn37_refren)+getString(R.string.imn37_stroke_2);
-                imn_acorduri=getString(R.string.imn37_acorduri_stroke_1)+getString(R.string.imn37_acorduri_refren)+getString(R.string.imn37_acorduri_stroke_2);}
-            title_text.setText(getString(R.string.imn37_title));
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile));
         }
         if(imn_number==38-4) {
             o=1;
@@ -683,13 +677,11 @@ public class Imn extends AppCompatActivity {
             if (refren_stroke==1){
                 imn=getString(R.string.imn38_stroke_1)+getString(R.string.imn38_stroke_2)
                         +getString(R.string.imn38_stroke_3)+getString(R.string.imn38_stroke_4);
-                imn_acorduri=getString(R.string.imn38_acorduri_stroke_1)+getString(R.string.imn38_acorduri_stroke_2)
-                        +getString(R.string.imn38_acorduri_stroke_3)+getString(R.string.imn38_acorduri_stroke_4);}
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn38_stroke_1)+getString(R.string.imn38_stroke_2)
                         +getString(R.string.imn38_stroke_3)+getString(R.string.imn38_stroke_4);
-                imn_acorduri=getString(R.string.imn38_acorduri_stroke_1)+getString(R.string.imn38_acorduri_stroke_2)
-                        +getString(R.string.imn38_acorduri_stroke_3)+getString(R.string.imn38_acorduri_stroke_4);}
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
             title_text.setText(getString(R.string.imn38_title));
         }
         if(imn_number==39-4) {
