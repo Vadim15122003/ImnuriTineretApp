@@ -717,12 +717,10 @@ public class Imn extends AppCompatActivity {
             if (refren_stroke==1){
                 imn=getString(R.string.imn41_stroke_1)+getString(R.string.imn41_refren)+getString(R.string.imn41_stroke_2)
                         +getString(R.string.imn41_refren);
-                imn_acorduri=getString(R.string.imn41_acorduri_stroke_1)+getString(R.string.imn41_acorduri_refren)
-                        +getString(R.string.imn41_acorduri_stroke_2)+getString(R.string.imn41_acorduri_refren);}
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn41_stroke_1)+getString(R.string.imn41_refren)+getString(R.string.imn41_stroke_2);
-                imn_acorduri=getString(R.string.imn41_acorduri_stroke_1)+getString(R.string.imn41_acorduri_refren)
-                        +getString(R.string.imn41_acorduri_stroke_2);}
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
             title_text.setText(getString(R.string.imn41_title));
         }
         if(imn_number==42-4) {
