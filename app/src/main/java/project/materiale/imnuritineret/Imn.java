@@ -666,10 +666,11 @@ public class Imn extends AppCompatActivity {
             if (refren_stroke==1){
                 imn=getString(R.string.imn37_stroke_1)+getString(R.string.imn37_refren)+getString(R.string.imn37_stroke_2)
                         +getString(R.string.imn37_refren);
-                imn_acorduri=getString(R.string.imn+acorduri_indisponibile);}
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn37_stroke_1)+getString(R.string.imn37_refren)+getString(R.string.imn37_stroke_2);
-                imn_acorduri=getString(R.string.imn_acorduri_indisponibile));
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
+            title_text.setText(getString(R.string.imn37_title));
         }
         if(imn_number==38-4) {
             o=1;
@@ -730,12 +731,10 @@ public class Imn extends AppCompatActivity {
             if (refren_stroke==1){
                 imn=getString(R.string.imn42_stroke_1)+getString(R.string.imn42_refren)+getString(R.string.imn42_stroke_2)
                         +getString(R.string.imn42_refren);
-                imn_acorduri=getString(R.string.imn42_acorduri_stroke_1)+getString(R.string.imn42_acorduri_refren)
-                        +getString(R.string.imn42_acorduri_stroke_2)+getString(R.string.imn42_acorduri_refren);}
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn42_stroke_1)+getString(R.string.imn42_refren)+getString(R.string.imn42_stroke_2);
-                imn_acorduri=getString(R.string.imn42_acorduri_stroke_1)+getString(R.string.imn42_acorduri_refren)
-                        +getString(R.string.imn42_acorduri_stroke_2);}
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
             title_text.setText(getString(R.string.imn42_title));
         }
         if(imn_number==43-4) {
@@ -746,13 +745,11 @@ public class Imn extends AppCompatActivity {
             if (refren_stroke==1){
                 imn=getString(R.string.imn43_stroke_1)+getString(R.string.imn43_stroke_2)
                         +getString(R.string.imn43_stroke_3);
-                imn_acorduri=getString(R.string.imn43_acorduri_stroke_1)+getString(R.string.imn43_acorduri_stroke_2)
-                        +getString(R.string.imn43_acorduri_stroke_3);}
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn43_stroke_1)+getString(R.string.imn43_stroke_2)
                         +getString(R.string.imn43_stroke_3);
-                imn_acorduri=getString(R.string.imn43_acorduri_stroke_1)+getString(R.string.imn43_acorduri_stroke_2)
-                        +getString(R.string.imn43_acorduri_stroke_3);}
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
             title_text.setText(getString(R.string.imn43_title));
         }
         if(imn_number==44-4) {
@@ -776,18 +773,15 @@ public class Imn extends AppCompatActivity {
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn45);
             if (refren_stroke==1){
-                imn=getString(R.string.imn45_stroke_1)+getString(R.string.imn45_acorduri_refren)
+                imn=getString(R.string.imn45_stroke_1)+getString(R.string.imn45_refren)
                         +getString(R.string.imn45_stroke_2)+getString(R.string.imn45_refren)+getString(R.string.imn45_stroke_3)
                         +getString(R.string.imn45_refren)+getString(R.string.imn45_stroke_4)+getString(R.string.imn45_refren);
-                imn_acorduri=getString(R.string.imn45_acorduri_stroke_1)+getString(R.string.imn45_acorduri_refren)
-                        +getString(R.string.imn45_acorduri_stroke_2)+getString(R.string.imn45_acorduri_refren)+getString(R.string.imn45_acorduri_stroke_3)
-                        +getString(R.string.imn45_acorduri_refren)+getString(R.string.imn45_acorduri_stroke_4)+getString(R.string.imn45_acorduri_refren);
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);
                 }
             if (refren_stroke==0){
                 imn=getString(R.string.imn45_stroke_1)+getString(R.string.imn45_refren)
                         +getString(R.string.imn45_stroke_2)+getString(R.string.imn45_stroke_3)+getString(R.string.imn45_stroke_4);
-                imn_acorduri=getString(R.string.imn45_acorduri_stroke_1)+getString(R.string.imn45_acorduri_refren)
-                        +getString(R.string.imn45_acorduri_stroke_2)+getString(R.string.imn45_acorduri_stroke_3)+getString(R.string.imn45_acorduri_stroke_4);}
+                imn_acorduri=getString(R.string.imn_acorduri_indisponibile);}
             title_text.setText(getString(R.string.imn45_title));
         }
         if(imn_number==46-4) {
@@ -798,14 +792,14 @@ public class Imn extends AppCompatActivity {
                 imn=getString(R.string.imn46_stroke_1)+getString(R.string.imn46_refren_1)
                         +getString(R.string.imn46_stroke_2)+getString(R.string.imn46_refren_1)+getString(R.string.imn46_stroke_3)
                         +getString(R.string.imn46_refren_2);
-                imn_acorduri=getString(R.string.imn34_acorduri_stroke_1)+getString(R.string.imn34_acorduri_refren_1)
-                        +getString(R.string.imn34_acorduri_stroke_2)+getString(R.string.imn34_acorduri_refren_1)+getString(R.string.imn46_acorduri_stroke_3)
+                imn_acorduri=getString(R.string.imn46_acorduri_stroke_1)+getString(R.string.imn46_acorduri_refren_1)
+                        +getString(R.string.imn46_acorduri_stroke_2)+getString(R.string.imn46_acorduri_refren_1)+getString(R.string.imn46_acorduri_stroke_3)
                         +getString(R.string.imn46_acorduri_refren_2);}
             if (refren_stroke==0){
-                imn=getString(R.string.imn34_stroke_1)+getString(R.string.imn34_refren_1)
-                        +getString(R.string.imn34_stroke_2)+getString(R.string.imn46_stroke_3)+getString(R.string.imn34_refren_2);
+                imn=getString(R.string.imn46_stroke_1)+getString(R.string.imn46_refren_1)
+                        +getString(R.string.imn46_stroke_2)+getString(R.string.imn46_stroke_3)+getString(R.string.imn46_refren_2);
                 imn_acorduri=getString(R.string.imn34_acorduri_stroke_1)+getString(R.string.imn34_acorduri_refren_1)
-                        +getString(R.string.imn34_acorduri_stroke_2)+getString(R.string.imn46_acorduri_stroke_3)
+                        +getString(R.string.imn46_acorduri_stroke_2)+getString(R.string.imn46_acorduri_stroke_3)
                         +getString(R.string.imn46_acorduri_refren_2);}
             title_text.setText(getString(R.string.imn46_title));
         }
@@ -1305,22 +1299,22 @@ public class Imn extends AppCompatActivity {
             mediaPlayer=MediaPlayer.create(this,R.raw.imn77);
             if (refren_stroke==1){
                 imn=getString(R.string.imn77_stroke_1)+getString(R.string.imn77_stroke_2)
+                        +getString(R.string.imn77_stroke_3)+getString(R.string.imn77_stroke_1)+getString(R.string.imn77_stroke_2)
                         +getString(R.string.imn77_stroke_3)+getString(R.string.imn77_stroke_4)
-                        +getString(R.string.imn77_stroke_5)+getString(R.string.imn77_stroke_6)
-                        +getString(R.string.imn77_stroke_7)+getString(R.string.imn77_stroke_8);
+                        +getString(R.string.imn77_stroke_5);
                 imn_acorduri=getString(R.string.imn77_acorduri_stroke_1)+getString(R.string.imn77_acorduri_stroke_2)
+                        +getString(R.string.imn77_acorduri_stroke_3)+getString(R.string.imn77_acorduri_stroke_1)+getString(R.string.imn77_acorduri_stroke_2)
                         +getString(R.string.imn77_acorduri_stroke_3)+getString(R.string.imn77_acorduri_stroke_4)
-                        +getString(R.string.imn77_acorduri_stroke_5)+getString(R.string.imn77_acorduri_stroke_6)
-                        +getString(R.string.imn77_acorduri_stroke_7)+getString(R.string.imn77_acorduri_stroke_8);}
+                        +getString(R.string.imn77_acorduri_stroke_5);}
             if (refren_stroke==0){
                 imn=getString(R.string.imn77_stroke_1)+getString(R.string.imn77_stroke_2)
+                        +getString(R.string.imn77_stroke_3)+getString(R.string.imn77_stroke_1)+getString(R.string.imn77_stroke_2)
                         +getString(R.string.imn77_stroke_3)+getString(R.string.imn77_stroke_4)
-                        +getString(R.string.imn77_stroke_5)+getString(R.string.imn77_stroke_6)
-                        +getString(R.string.imn77_stroke_7)+getString(R.string.imn77_stroke_8);
+                        +getString(R.string.imn77_stroke_5);
                 imn_acorduri=getString(R.string.imn77_acorduri_stroke_1)+getString(R.string.imn77_acorduri_stroke_2)
+                        +getString(R.string.imn77_acorduri_stroke_3)+getString(R.string.imn77_acorduri_stroke_1)+getString(R.string.imn77_acorduri_stroke_2)
                         +getString(R.string.imn77_acorduri_stroke_3)+getString(R.string.imn77_acorduri_stroke_4)
-                        +getString(R.string.imn77_acorduri_stroke_5)+getString(R.string.imn77_acorduri_stroke_6)
-                        +getString(R.string.imn77_acorduri_stroke_7)+getString(R.string.imn77_acorduri_stroke_8);}
+                        +getString(R.string.imn77_acorduri_stroke_5);}
             title_text.setText(getString(R.string.imn77_title));
         }
         if(imn_number==78-6) {
