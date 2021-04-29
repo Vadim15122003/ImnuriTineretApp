@@ -892,7 +892,7 @@ public class Imn extends AppCompatActivity {
             title_text.setText(getString(R.string.imn51_title));
         }
         if(imn_number==52-4) {
-            o=0;
+            o=1;
             c=1;
             if (refren_stroke==1){
                 imn=getString(R.string.imn52_stroke_1)+getString(R.string.imn52_refren)
@@ -913,7 +913,7 @@ public class Imn extends AppCompatActivity {
             c=1;
             mediaPlayer=MediaPlayer.create(this,R.raw.imn53);
             if (refren_stroke==1){
-                imn=getString(R.string.imn53_stroke_1)+getString(R.string.imn53_acorduri_refren)
+                imn=getString(R.string.imn53_stroke_1)+getString(R.string.imn53_refren)
                         +getString(R.string.imn53_stroke_2)+getString(R.string.imn53_refren)+getString(R.string.imn53_stroke_3)
                         +getString(R.string.imn53_refren)+getString(R.string.imn53_stroke_4)+getString(R.string.imn53_refren);
                 imn_acorduri=getString(R.string.imn53_acorduri_stroke_1)+getString(R.string.imn53_acorduri_refren)
