@@ -48,11 +48,13 @@ public class ListViewAdapter extends BaseAdapter {
 
     @Override
     public View getView(final int position, View view, ViewGroup parent) {
+        int txt_for_imn_list_and_rest_of_app=PrefConfig.load_saved_color7(mContext);
         ViewHolder holder;
         if (view==null){
             holder=new ViewHolder();
             view=inflater.inflate(R.layout.text_from_list,null);
             holder.mTitleTV=view.findViewById(R.id.text_list_items);
+            holder.mTitleTV.setTextColor(txt_for_imn_list_and_rest_of_app);
             view.setTag(holder);
         }
         else {

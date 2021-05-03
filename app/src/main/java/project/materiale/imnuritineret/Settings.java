@@ -9,15 +9,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Adapter;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.Spinner;
-import android.widget.SpinnerAdapter;
 import android.widget.TextView;
 
 import yuku.ambilwarna.AmbilWarnaDialog;
@@ -39,7 +36,6 @@ public class Settings extends AppCompatActivity implements AdapterView.OnItemSel
     TextView txt_toolbar,t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,n1,n2,n3;
     ImageView buton_menu,ic1,ic2,ic3;
     ScrollView scroll;
-    Spinner spinner;
 
 
     @Override
@@ -71,7 +67,6 @@ public class Settings extends AppCompatActivity implements AdapterView.OnItemSel
         txt_toolbar=findViewById(R.id.txt_toolbar_settings);
         buton_menu=findViewById(R.id.meniu_settings);
         t1=findViewById(R.id.title_colors_settings);
-        t0=findViewById(R.id.t0);
         t2=findViewById(R.id.t2);
         t3=findViewById(R.id.t3);
         t4=findViewById(R.id.t4);
@@ -92,7 +87,6 @@ public class Settings extends AppCompatActivity implements AdapterView.OnItemSel
         n2=findViewById(R.id.text_update);
         n3=findViewById(R.id.text_settings);
         scroll=findViewById(R.id.scroll);   scroll.setOverScrollMode(View.OVER_SCROLL_NEVER);
-        spinner=findViewById(R.id.spinner);
 
 
         imn_background=PrefConfig.load_saved_color1(this);
@@ -129,7 +123,6 @@ public class Settings extends AppCompatActivity implements AdapterView.OnItemSel
             buton_menu.setColorFilter(rest_of_buttons);
             b13.setBackgroundColor(background_of_rest_app);
             swich1.setTextColor(txt_for_imn_list_and_rest_of_app);
-            t0.setTextColor(txt_for_imn_list_and_rest_of_app);
             t1.setTextColor(txt_for_imn_list_and_rest_of_app);
             t2.setTextColor(txt_for_imn_list_and_rest_of_app);
             t3.setTextColor(txt_for_imn_list_and_rest_of_app);
@@ -151,14 +144,6 @@ public class Settings extends AppCompatActivity implements AdapterView.OnItemSel
             n1.setTextColor(txt_items_from_options_window);
             n2.setTextColor(txt_items_from_options_window);
             n3.setTextColor(txt_items_from_options_window);
-
-
-            spinner.setOnItemSelectedListener(this);
-            String[] color_options=getResources().getStringArray(R.array.text_imn_list_color_options);
-            Adapter adapter_color_options= new ArrayAdapter(this,android.R.layout.simple_spinner_item,color_options);
-            ((ArrayAdapter) adapter_color_options).setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-            spinner.setAdapter((SpinnerAdapter) adapter_color_options);
-            spinner.setBackgroundColor(getColor(R.color.bakground_for_list_color_selector_spiner));
 
 
         refre_stroke=PrefConfig.load_saved_refren_stroke_data(this);
@@ -307,7 +292,6 @@ public class Settings extends AppCompatActivity implements AdapterView.OnItemSel
                 buton_menu.setColorFilter(rest_of_buttons);
                 b13.setBackgroundColor(background_of_rest_app);
                 swich1.setTextColor(txt_for_imn_list_and_rest_of_app);
-                t0.setTextColor(txt_for_imn_list_and_rest_of_app);
                 t1.setTextColor(txt_for_imn_list_and_rest_of_app);
                 t2.setTextColor(txt_for_imn_list_and_rest_of_app);
                 t3.setTextColor(txt_for_imn_list_and_rest_of_app);

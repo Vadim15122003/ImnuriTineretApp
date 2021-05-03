@@ -53,30 +53,6 @@
                 android:layout_height="70dp"
                 android:layout_below="@+id/title_colors_settings"
                 android:orientation="vertical"
-                android:id="@+id/spiner">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginEnd="180dp"
-                    android:autoSizeTextType="uniform"
-                    android:gravity="center_vertical"
-                    android:text="Textul la lista imnurilor"
-                    android:id="@+id/t0"/>
-                <Spinner
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="15dp"
-                    android:id="@+id/spinner"
-                    android:layout_alignParentEnd="true"
-                    android:layout_width="150dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginEnd="10dp"
-                    />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_below="@+id/spiner"
-                android:orientation="vertical"
                 android:id="@+id/line2">
                 <TextView
                     android:layout_width="match_parent"
@@ -206,7 +182,6 @@
                     android:gravity="center_vertical"
                     android:id="@+id/t8"
                     android:text="Restul textului din aplicație" />
-
                 <Button
                     android:id="@+id/b7"
                     android:layout_alignParentEnd="true"
