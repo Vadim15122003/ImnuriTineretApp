@@ -6,11 +6,10 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -18,14 +17,17 @@ import android.widget.RelativeLayout;
 import android.widget.SearchView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 
 public class MainActivity extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
     SearchView sv;
     ListView lv;
-    ArrayAdapter adapter;
+    ListViewAdapter adapter;
     String[] listImns;
+    ArrayList<Model> arrayList=new ArrayList<Model>();
     LinearLayout nav_drawer;
     int background_of_rest_app,options_window,toolbar,txt_for_imn_list_and_rest_of_app,txt_items_from_options_window;
     int rest_of_buttons,icons_right_window_options,d1,first;
@@ -92,14 +94,15 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout=findViewById(R.id.drawer_layout);
         sv = findViewById(R.id.search);
         lv = findViewById(R.id.list);
-        listImns = getResources().getStringArray(R.array.imn_name);
-        if (m==1){
-        adapter = new ArrayAdapter<>(this, R.layout.text_from_list_black, listImns);}
-        if (m==2){
-            adapter = new ArrayAdapter<>(this, R.layout.text_from_list_white, listImns);}
-        if (m==3){
-            adapter = new ArrayAdapter<>(this, R.layout.text_from_list_gray, listImns);}
+        listImns =getResources().getStringArray(R.array.imn_name);
+        for (int i = 0; i < listImns.length; i++) {
+            Model model = new Model(listImns[i]);
+            arrayList.add(model);
+        }
+
+        adapter = new ListViewAdapter(this, arrayList);
         lv.setAdapter(adapter);
+
         nav_drawer=findViewById(R.id.nav_drawer);
         toolbar_main=findViewById(R.id.main_toolbar);
         icon1=findViewById(R.id.icon_menu);
@@ -126,20 +129,18 @@ public class MainActivity extends AppCompatActivity {
 
         sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
-            public boolean onQueryTextSubmit(String query) {
+            public boolean onQueryTextSubmit(String s) {
                 return false;}
             @Override
-            public boolean onQueryTextChange(String newText) {
-                adapter.getFilter().filter(newText);
-                return false;
-            }
-        });
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent intent = new Intent(view.getContext(), Imn.class);
-                    intent.putExtra("imn_number", position+1);
-                    startActivity(intent);
+            public boolean onQueryTextChange(String s) {
+                if(TextUtils.isEmpty(s)){
+                    adapter.filter("");
+                    lv.clearTextFilter();
+                }
+                else{
+                    adapter.filter(s);
+                }
+                return true;
             }
         });
         lv.setOverScrollMode(View.OVER_SCROLL_NEVER);
